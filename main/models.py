@@ -36,7 +36,9 @@ class Food(models.Model):
 		self.save()
 
     def get_rating(self):
-        return (self.rating)/(UserRating.objects.filter(food=self).count())
+        votecount = UserRating.objects.filter(food=self).count()
+        if votecount == 0: return 0
+        return (self.rating)/votecount
         
 
 class UserRating(models.Model):

@@ -30,4 +30,6 @@ def meal_name(meal):
 
 @register.filter()
 def get_rating(food):
-    return (food.rating)/(UserRating.objects.filter(food=food).count())
+    votecount = UserRating.objects.filter(food=food).count()
+    if votecount == 0: return 0
+    return (food.rating)/votecount
