@@ -13,18 +13,28 @@ from main.models import *
 
 def home(request):
     data = {}
-
     date = datetime.date.today()
-    for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
-        data[location] = {}
-        if date.isoweekday() != 6 and date.isoweekday() != 7:
-            data[location]['B'] = sorted_foods(date, location, 'B')
-
-        data[location]['L'] = sorted_foods(date, location, 'L')
-        data[location]['D'] = sorted_foods(date, location, 'D')
-
-    return render_to_response('home.html', RequestContext(request,{
-                "data": data}))
+	try:
+		user_prof = UserProfile.objects.get(user=request.user)
+	except ObjectDoesNotExist:
+		user_prof = None
+	if user_prof != None:
+		for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
+			data[location] = {}
+			if date.isoweekday() != 6 and date.isoweekday() != 7:
+				data[location]['B'] = filter_blacklists(user_prof, date, location, 'B')
+			data[location]['L'] = filter_blacklists(user_prof, date, location, 'L')
+			data[location]['D'] = filter_blacklists(user_prof, date, location, 'D')
+	else:
+		for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
+			data[location] = {}
+			if date.isoweekday() != 6 and date.isoweekday() != 7:
+				data[location]['B'] = sorted_foods(date, location, 'B')
+			data[location]['L'] = sorted_foods(date, location, 'L')
+			data[location]['D'] = sorted_foods(date, location, 'D')
+    return render_to_response('home.html',
+                              RequestContext(request,{"data":data,
+                                                      "def_loc":user_prof.default_location}))
 
 def sorted_foods(date, location, meal):
     """Return a dict of main_foods and other_foods for a given offering"""
@@ -35,6 +45,25 @@ def sorted_foods(date, location, meal):
     else:
         return {"main_foods": o[0].foods.order_by("-rating"),
                 "other_foods": []}
+
+def filter_blacklists(user, date, location, meal):
+    """Return a dict of main_foods and other_foods for a given offering"""
+    offerings = Offering.objects.filter(location=str(location), date=date,
+                                        meal=str(meal))
+    if len(offerings) == 0: return {}
+    offerings = offerings[0].foods.order_by("-rating")
+    else:
+        main_foods, blacklisted_foods = [], []
+        for food in offerings:
+            blacklisted = False
+            for tag in user.blacklisted_tags.all():
+                if str(food) in str(tag):
+                    blacklisted_foods.append(food)
+                    blacklisted = True
+                    break
+            if not blacklisted: main_foods.append(food)
+        return {"main_foods": main_foods,
+                "other_foods": blacklisted_foods}
 
 def has_rated(user, food):
     """Returns if a user has voted on a certain food recently."""
@@ -84,24 +113,6 @@ def food_profile(request,num):
     return render_to_response('food_pf.html', RequestContext(request,{
                 'id': num}))
 
-def filter_blacklists(user, date, location, meal):
-    """Return a dict of main_foods and other_foods for a given offering"""
-    offerings = Offering.objects.filter(location=str(location), date=date,
-                                        meal=str(meal))
-    if len(offerings) == 0: return {}
-    offerings = offerings[0].foods.order_by("-rating")
-    else:
-        main_foods, blacklisted_foods = [], []
-        for food in offerings:
-            blacklisted = False
-            for tag in user.blacklisted_tags.all():
-                if str(food) in str(tag):
-                    blacklisted_foods.append(food)
-                    blacklisted = True
-                    break
-            if not blacklisted: main_foods.append(food)
-        return {"main_foods": main_foods,
-                "other_foods": blacklisted_foods}
 
 @login_required
 def user_profile(request):
