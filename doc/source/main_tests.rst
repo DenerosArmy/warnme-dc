@@ -1,5 +1,5 @@
-Main App - Models
-==========
+Main App - Tests
+================
 
 .. automodule:: main.tests
    :members:
