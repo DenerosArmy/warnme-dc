@@ -36,9 +36,9 @@ def genmenu(request = None):
 			mealdata = mealtags[number]
 			print mealdata
 			mealdata = mealdata.split(";") 
-			meal = mealdata[0] 
-			location = mealdata[1] 
-			O = Offering(meal=meal,location = location, date=Date ) 
+			location = mealdata[0] 
+			meal = mealdata[1] 
+			O = Offering(meal=str(meal),location = str(location), date=Date ) 
 			O.save()
 			for food in meals[number]:
 				f, boolean = Food.objects.get_or_create(name=food,defaults={"rating":0.0} )

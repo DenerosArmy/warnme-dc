@@ -20,6 +20,16 @@ def home(request):
     return render_to_response('home.html', RequestContext(request,{
                 "data": data}))
 
+def sorted_foods(date, location, meal):
+    """Return a dict of main_foods and other_foods for a given offering"""
+    o = Offering.objects.filter(location=str(location), date=date, meal=str(meal))
+    if len(o) == 0:
+        print "returning empty"
+        return {}
+    else:
+        return {"main_foods": o[0].foods.order_by("-rating"),
+                "other_foods": []}
+
 def rate(request, food_key, rating):
     """Rate a given food (with key).
 
@@ -47,15 +57,6 @@ def rate(request, food_key, rating):
     else:
         u.save()
         return HttpResponse("Success")
-
-def sorted_foods(date, location, meal):
-    """Return a dict of main_foods and other_foods for a given offering"""
-    o = Offering.objects.filter(location=location, date=date, meal=meal)
-    if len(o) == 0:
-        return {}
-    else:
-        return {"main_foods": o[0].foods.order_by("-rating"),
-                "other_foods": []}
 
 def food(request):
     return render_to_response('food.html', RequestContext(request, {}))
