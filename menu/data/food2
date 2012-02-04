@@ -1,0 +1,504 @@
+FoodName:Cornbread    ; Allergens:Milk, Eggs, Wheat
+FoodName:French Breadstick    ; Allergens:Wheat
+FoodName:Garlic Bread Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Sour French Bread VGN    ; Allergens:Wheat, Soybeans
+FoodName:Jalapeno Cornbread    ; Allergens:Milk, Eggs, Wheat
+FoodName:Baguettes    ; Allergens:Wheat, Soybeans
+FoodName:Garlic Bread w/Fresh Garlic    ; Allergens:Wheat, Soybeans
+FoodName:Seeded French Hot Dog Buns V    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Pita Bread    ; Allergens:Wheat
+FoodName:HB Cornbread    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Wheat Hamburger Buns    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Hot Dog Buns 6"    ; Allergens:Milk, Wheat, Soybeans
+FoodName:HB Irish Soda Bread    ; Allergens:Milk, Eggs, Wheat
+FoodName:Buttermilk Cornbread    ; Allergens:Milk, Eggs, Wheat
+FoodName:10" Flour Tortilla    ; Allergens:Wheat, Soybeans
+FoodName:Sun Butter and Jelly Crumb Cake    ; Allergens:Milk, Eggs, Wheat
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Corn Tortillas    ; Allergens:
+FoodName:Toast    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Slice Of Bread    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Lavosh Bread    ; Allergens:Wheat
+FoodName:Bread Bowl    ; Allergens:Wheat
+FoodName:Cornbread    ; Allergens:Milk, Eggs, Wheat
+FoodName:Pita Triangles    ; Allergens:Wheat
+FoodName:Honey Wheatberry Bread    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Sweet French Bread    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cornbread    ; Allergens:Milk, Eggs, Wheat
+FoodName:Focaccia Bread    ; Allergens:Milk, Wheat
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Cornbread    ; Allergens:Wheat
+FoodName:    ; Allergens:
+FoodName:Garlic Cheese Bread    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Naan Bread    ; Allergens:Milk, Eggs, Wheat
+FoodName:Foothill's Garlic Bread    ; Allergens:Milk, Wheat
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Parmesean Cheese Bread    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Taco Shell    ; Allergens:
+FoodName:Alvarado Sprted Cinn Raisin Br    ; Allergens:Wheat, Soybeans
+FoodName:Bread Ratio    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Toast LBL    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Wheat Rolls    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:White Buffet  Rolls    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Sour French Steak Rolls    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Grilled Pita Bread    ; Allergens:Wheat
+FoodName:    ; Allergens:
+FoodName:Dinner Roll    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Sweet Steak Rolls    ; Allergens:Wheat, Soybeans
+FoodName:Sour Steak Rolls    ; Allergens:Wheat, Soybeans
+FoodName:Sesame Hoagie Rolls    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Rosemary Potato Rolls    ; Allergens:Wheat
+FoodName:Whole Soup Roll    ; Allergens:Wheat, Soybeans
+FoodName:Assorted Rolls    ; Allergens:Wheat, Soybeans
+FoodName:Add-On Roll    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Banquet Wheat Rolls    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Wheat Sandwich Roll    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Green Onion Foccacia    ; Allergens:Wheat
+FoodName:Green Olive Rolls    ; Allergens:Wheat
+FoodName:Sugar Donut Muffin    ; Allergens:Milk, Eggs, Wheat
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:3-C Muffins    ; Allergens:Milk, Eggs, Tree Nuts, Wheat
+FoodName:English Muffins LBL    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Banana Chocolate Chip Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Carrot Muffins    ; Allergens:Eggs, Tree Nuts, Wheat
+FoodName:Zucchini Muffins    ; Allergens:Eggs, Wheat
+FoodName:HB Banana Choc Chip Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Banana Chocolate Chip Muffins    ; Allergens:Wheat
+FoodName:HB Corn Muffins    ; Allergens:Wheat
+FoodName:HB Banana Choc Chip Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:Hush Puppies    ; Allergens:Milk, Eggs, Wheat
+FoodName:Fresh Ginger Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Sweet Georgia Muffins    ; Allergens:Eggs, Wheat
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:English Muffins    ; Allergens:Wheat, Soybeans
+FoodName:HB Apple Bran Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Bran Muffin    ; Allergens:Milk, Eggs, Tree Nuts, Wheat
+FoodName:    ; Allergens:
+FoodName:Assorted Muffins    ; Allergens:
+FoodName:Scones    ; Allergens:Milk, Eggs, Tree Nuts, Wheat
+FoodName:Scones    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:HB Blueberry Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Cocoa Spiced Muffins    ; Allergens:Wheat, Soybeans
+FoodName:HB Apple Raisin Muffin    ; Allergens:Wheat
+FoodName:    ; Allergens:
+FoodName:Walnut Scones V    ; Allergens:Milk, Tree Nuts, Wheat
+FoodName:Raisin Walnut Scones    ; Allergens:Milk, Tree Nuts, Wheat
+FoodName:Cherry Scones V    ; Allergens:Milk, Wheat
+FoodName:Cranberry Scones V    ; Allergens:Milk, Wheat
+FoodName:Chocolate Chip Scones    ; Allergens:Wheat, Soybeans
+FoodName:Banana Nut Muffin    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:Blueberry Muffin    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Lemon Poppyseed Muffin    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Simple Scones    ; Allergens:Milk, Eggs, Wheat
+FoodName:Chocolate Chip Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Corn Muffin    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Lemon Poppyseed Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Basic Scone    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Berry Scones    ; Allergens:Wheat, Soybeans
+FoodName:HB  Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB  Muffins 4.5Z    ; Allergens:Milk, Eggs, Wheat
+FoodName:Blueberry Scones    ; Allergens:Milk, Eggs, Wheat
+FoodName:Chocolate Chip Scones    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Raisin Scones    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Blueberry Scones    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Cinnamon Scones    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Corn Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Mandarin Orange Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Lemon Poppyseed Muffin 4.5Z    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Banana Choc Chip Muffins    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Blueberry Muffins 4.5Z    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Chocolate Chip Muffin 4.25Z    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Chocolate Chip Muffin 2.5Z    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Cappucino Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Cappucino Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Double Choc Chip Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Pumpkin Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Vanilla Pound Cake Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Mandarin Orange Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Healthy Harvest  Muffins    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:HB Double Choc Chip Muffins Ret    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Pumpkin Muffins Retail    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Vanilla Pound Cake Muffins CR    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Cranberry Orange Muffins CR    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Healthy Harvest  Muffins CR    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:HB Banana Chocolate Chip Muffin    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Blueberry Muffin    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Lemon Poppyseed Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Blueberry Muffin    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Lemon Poppyseed Muffins    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Banana Choc Chip Muffin    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Vegan Mixed Berry Muffin    ; Allergens:Wheat, Soybeans
+FoodName:Biscuits    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Ched Biscuits w/Ham/Peach Must    ; Allergens:Milk
+FoodName:HB Buttermilk Biscuits    ; Allergens:Milk, Wheat
+FoodName:Blue Chse Biscuits/RB & Hsrdis    ; Allergens:Milk, Eggs, Soybeans
+FoodName:HB Cheddar Biscuits    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Buttermilk Biscuits CR    ; Allergens:Milk, Wheat
+FoodName:Harrys Poblano Corn Chowder    ; Allergens:Milk, Wheat
+FoodName:GF Loaded Potato Soup    ; Allergens:Milk
+FoodName:Harrys Butternut Squash Soup    ; Allergens:Milk
+FoodName:Harrys Cream Of Broccoli Soup    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Bagel Bar LBL    ; Allergens:Milk, Eggs, Tree Nuts, Peanuts, Wheat, Soybeans
+FoodName:Bagel Bar w/The Works  Late Night    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Medium Donuts LBL    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Large Donuts LBL    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Cinnamon Roll    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Medium Donuts    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Large Donuts    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Assorted Bagels    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Raised Donuts    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Assorted Cake Donuts    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Cinnamon Rolls    ; Allergens:Milk, Eggs, Wheat
+FoodName:    ; Allergens:
+FoodName:Bagel Bar w/The Works    ; Allergens:Milk, Eggs, Tree Nuts, Peanuts, Wheat, Soybeans
+FoodName:Bagel w/Butter and Jam    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Bagel Bar w/Bacon/Veggie    ; Allergens:Milk, Eggs, Tree Nuts, Peanuts, Wheat, Soybeans
+FoodName:HB Cinnamon Rolls CR    ; Allergens:Milk, Eggs, Wheat
+FoodName:    ; Allergens:
+FoodName:Mini Croissants    ; Allergens:
+FoodName:Croissants    ; Allergens:Milk, Eggs, Wheat
+FoodName:Croissant    ; Allergens:Milk, Eggs, Wheat
+FoodName:Banana Sour Cream Coffeecake    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Banana Nut Bread    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:Blueberry Buckle    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Fruit Buckle    ; Allergens:Milk, Eggs, Wheat
+FoodName:Walnut Bread    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:Sour Cream Coffeecake    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:Zucchini Bread    ; Allergens:Eggs, Wheat
+FoodName:Coffeecake    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:HB Pumpkin Bread    ; Allergens:Eggs, Wheat
+FoodName:Banana Bread w/o Nuts    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:HB Cranberry Orange Bread    ; Allergens:Eggs, Wheat
+FoodName:HB Zucchini Bread    ; Allergens:Eggs, Wheat
+FoodName:    ; Allergens:
+FoodName:HB Chocolate Chip Banana Bread    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:Cranberry Orange Bread    ; Allergens:Eggs, Wheat
+FoodName:HB Orange Cranberry Bread    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Peach Breakfast Cake    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:HB Banana Bread    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Zucchini Bread    ; Allergens:Eggs, Wheat
+FoodName:Banana Nut Bread    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:HB Blueberry Coffeecake    ; Allergens:Milk, Eggs, Wheat
+FoodName:Assorted Breakfast Pastry    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:HB Vienna Nut Slice    ; Allergens:Milk, Eggs, Tree Nuts, Wheat
+FoodName:HB Sticky Buns    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:HB Mixed Berry Coffee Cake    ; Allergens:Milk, Eggs, Wheat
+FoodName:HB Sock It To Me Coffee Cake    ; Allergens:Milk, Eggs, Tree Nuts, Peanuts, Wheat
+FoodName:HB Banana Bread    ; Allergens:Milk, Eggs, Wheat
+FoodName:Bread Crumbs Homemade    ; Allergens:Wheat
+FoodName:Panko Bread Crumbs    ; Allergens:Wheat
+FoodName:Hot Mustard    ; Allergens:
+FoodName:Taco Condiments    ; Allergens:Milk
+FoodName:Tostada Condiments    ; Allergens:Milk
+FoodName:Burrito Condiments    ; Allergens:Milk
+FoodName:Fajita Condiments    ; Allergens:Milk
+FoodName:Big Burger Sauce    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Diced Green Chiles    ; Allergens:
+FoodName:Guacamole    ; Allergens:
+FoodName:Chunky Picante Salsa    ; Allergens:
+FoodName:Low Fat Sour Cream    ; Allergens:Milk
+FoodName:Sliced Olives    ; Allergens:
+FoodName:Sliced Jalapeno Peppers    ; Allergens:
+FoodName:Tartar Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Lemon Zest    ; Allergens:
+FoodName:Orange Zest    ; Allergens:
+FoodName:South Of The Border Condiments    ; Allergens:Milk
+FoodName:Lime Zest    ; Allergens:
+FoodName:Cucumber Pickle - Korean    ; Allergens:
+FoodName:Omelette Toppings    ; Allergens:Milk
+FoodName:Strawberry Jam    ; Allergens:
+FoodName:Grape Jelly    ; Allergens:
+FoodName:KimChi    ; Allergens:
+FoodName:Organic Creamy Peanutbutter    ; Allergens:Peanuts
+FoodName:Organic Crunchy Peanutbutter    ; Allergens:Peanuts
+FoodName:    ; Allergens:
+FoodName:Tarragon Mayonnaise    ; Allergens:Eggs, Soybeans
+FoodName:Hamburger Condiments    ; Allergens:Milk, Soybeans
+FoodName:Condiment Platter    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:Brown and Yellow Mustard    ; Allergens:
+FoodName:Low Fat Mayonnaise    ; Allergens:Eggs, Soybeans
+FoodName:Butter    ; Allergens:Milk
+FoodName:BBQ Condiments    ; Allergens:Milk
+FoodName:Sugar Packets    ; Allergens:
+FoodName:Garam Masala    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Mustard/Mayo Mix    ; Allergens:Eggs, Soybeans
+FoodName:Tartar Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Papaya Salsa    ; Allergens:
+FoodName:Lemon Butter    ; Allergens:Milk
+FoodName:Pesto Mayonnaise    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Browned Garlic    ; Allergens:
+FoodName:Honey Butter    ; Allergens:Soybeans
+FoodName:Apple Chutney    ; Allergens:
+FoodName:Hamburger Condiments CR    ; Allergens:Milk, Soybeans
+FoodName:Mango Papaya Salsa    ; Allergens:
+FoodName:Must/Mayo PC for Bag Lunches    ; Allergens:Milk, Soybeans
+FoodName:LETTUCE, TOMATO AND ONIONS    ; Allergens:
+FoodName:Grated Parmesan Cheese    ; Allergens:Milk
+FoodName:Onion Relish    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:Confiture of Onion    ; Allergens:Milk
+FoodName:Tomato Relish    ; Allergens:
+FoodName:Aioli Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Chili Paste    ; Allergens:Soybeans
+FoodName:Tom/Corn/Horseradish Relish    ; Allergens:
+FoodName:Lemon Caper Aioli Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Sour Cream Vgn    ; Allergens:Soybeans
+FoodName:Blue Cheese Spread    ; Allergens:Milk, Eggs, Soybeans
+FoodName:    ; Allergens:
+FoodName:Mustard    ; Allergens:
+FoodName:Sweet Pickle Relish    ; Allergens:
+FoodName:Corn Coulis Vgn    ; Allergens:
+FoodName:Lemon Wedge    ; Allergens:
+FoodName:Sliced Greek Olives    ; Allergens:
+FoodName:Tomatillo Salsa    ; Allergens:
+FoodName:Savory Spread    ; Allergens:Eggs, Soybeans
+FoodName:Apple Cranberry Relish    ; Allergens:
+FoodName:Soy Sauce    ; Allergens:Soybeans
+FoodName:Whipped Butter    ; Allergens:Milk
+FoodName:Whole Greek Olives    ; Allergens:
+FoodName:Roasted Tomato Salsa    ; Allergens:
+FoodName:Extra Dipping Sauce    ; Allergens:Milk, Soybeans
+FoodName:Mild Tomato Salsa    ; Allergens:
+FoodName:Mild Tomato Salsa    ; Allergens:
+FoodName:Chipolte & Rst Pepper Aioli    ; Allergens:Eggs, Soybeans
+FoodName:Cucumber Raita    ; Allergens:Milk
+FoodName:Roasted Red Pepper Mayonnaise    ; Allergens:Eggs, Soybeans
+FoodName:Chipotle Mayonnaise    ; Allergens:Eggs, Soybeans
+FoodName:CAJUN MAYONNAISE    ; Allergens:Eggs, Soybeans
+FoodName:Homemade Cranberry Sauce    ; Allergens:
+FoodName:Red Pepper Coulis    ; Allergens:
+FoodName:Roasted Garlic    ; Allergens:
+FoodName:Asiago Croutons    ; Allergens:Milk, Wheat
+FoodName:Dry Cherry Chutney    ; Allergens:
+FoodName:Creamy Horseradish Sauce    ; Allergens:Milk
+FoodName:Roasted Red Pepper Hummus Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Grecian  Hummus    ; Allergens:Wheat, Soybeans
+FoodName:Edamame Hummus    ; Allergens:Soybeans
+FoodName:Red Pepper Hummus    ; Allergens:
+FoodName:Mai's Basic Nuoc Cham    ; Allergens:Fish, Wheat
+FoodName:Baharat    ; Allergens:
+FoodName:Mai Pham Condiments    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Tomatillo-Chipotle Salsa    ; Allergens:
+FoodName:Salsa De Tomato    ; Allergens:
+FoodName:Shaved Asiago Cheese    ; Allergens:Milk
+FoodName:Cinnamon Butter    ; Allergens:Milk
+FoodName:Hellman's Red Pepper Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Hellman's Dijon Horserad Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Hellman's Sweet Curry Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Wasabi Paste    ; Allergens:
+FoodName:Pickled Onions    ; Allergens:
+FoodName:Foothills Special Sandwich Sce    ; Allergens:Soybeans
+FoodName:Foothill's Garlic Spread    ; Allergens:Milk
+FoodName:Grilled Pineapple Soy Relish    ; Allergens:
+FoodName:Hellman's Chipotle Sauce    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:Hellman's Creamy Pesto Sauce    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Currined Dipping Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Chipolte Cream    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:Garlic    ; Allergens:
+FoodName:Papaya Salsa    ; Allergens:
+FoodName:Late Night Mexican Condiments    ; Allergens:Milk
+FoodName:Tomato Spread    ; Allergens:
+FoodName:Cherry Pancake Topping    ; Allergens:
+FoodName:Peach Pancake Topping    ; Allergens:
+FoodName:Pineapple Pancake Topping    ; Allergens:
+FoodName:GF Blueberry Pancake Topping    ; Allergens:
+FoodName:GF Strawberry  Topping    ; Allergens:
+FoodName:Apple Pancake Topping    ; Allergens:
+FoodName:Strawberry Cream Cheese    ; Allergens:Milk
+FoodName:Chive Cream Cheese    ; Allergens:Milk
+FoodName:Vegetable Cream Cheese    ; Allergens:Milk
+FoodName:Chive Cream Cheese    ; Allergens:Milk
+FoodName:Cream Cheese & Dill Spread    ; Allergens:Milk
+FoodName:Cream Cheese & Mushroom Spread    ; Allergens:Milk
+FoodName:Cream Cheese & Olive Spread    ; Allergens:Milk
+FoodName:Whipped Cream Cheese    ; Allergens:Milk
+FoodName:GF Maple Syrup    ; Allergens:
+FoodName:Whipped Cream Cheese    ; Allergens:Milk
+FoodName:Cream Cheese  1 oz PC    ; Allergens:Milk
+FoodName:Whipped Cream Cheese    ; Allergens:Milk
+FoodName:Herbed Cream Cheese    ; Allergens:Milk
+FoodName:Blueberry Syrup    ; Allergens:
+FoodName:Boysenberry Syrup    ; Allergens:
+FoodName:Peppercorn Salt    ; Allergens:
+FoodName:Boquet Garni Vgn    ; Allergens:
+FoodName:Moroccan Spice Rub    ; Allergens:
+FoodName:Baharat    ; Allergens:
+FoodName:West African Spices Rub    ; Allergens:
+FoodName:Fruit Punch    ; Allergens:
+FoodName:Lemonade    ; Allergens:
+FoodName:Grape Juice    ; Allergens:
+FoodName:Apple Juice    ; Allergens:
+FoodName:Orange Juice    ; Allergens:
+FoodName:Horchata    ; Allergens:Milk
+FoodName:Iced Tea    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Spiced Apple Cider    ; Allergens:
+FoodName:Sprite    ; Allergens:
+FoodName:Agua Fresca Watermelon    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Sparkling Apple Juice Punch    ; Allergens:
+FoodName:Diet Sprite    ; Allergens:
+FoodName:Mock Sangria    ; Allergens:
+FoodName:Lime & Cucumber Agua Fresca    ; Allergens:
+FoodName:Cranberry Juice    ; Allergens:
+FoodName:Blueberry Lemonade    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Assorted 1/2 Pints of Milk    ; Allergens:Milk
+FoodName:Low Fat and Red Fat 1/2 pt Mil    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:8 oz Soda    ; Allergens:
+FoodName:12 oz Soda    ; Allergens:
+FoodName:16 oz Soda    ; Allergens:
+FoodName:16 oz Soda    ; Allergens:
+FoodName:Pome/Berry  Smoothy    ; Allergens:
+FoodName:Mango  Smoothy    ; Allergens:
+FoodName:Strawberry Smoothy    ; Allergens:
+FoodName:Banana  Smoothy    ; Allergens:
+FoodName:Tap Water    ; Allergens:
+FoodName:Sparkling Fruit Punch    ; Allergens:
+FoodName:Straw/Banana  Smoothy    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Canned Coke 12 oz    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Bottled Soda 20 oz    ; Allergens:
+FoodName:Assorted Nestea 16 oz    ; Allergens:
+FoodName:1/2 Pint Low Fat Milk    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Strawberry Smoothie    ; Allergens:
+FoodName:Cal Bluebeary Smoothie    ; Allergens:
+FoodName:1/2 Pint Whole Milk    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Minute Maid Orange Juice 4 oz    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Strawberry Smoothie    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:Peach/Pineapple Smoothie    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:Bottle Soda 20 oz    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Assorted Milk Pint    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Iced Mocha Coffee 16 oz    ; Allergens:Milk
+FoodName:Canned Soda    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Dasani Water    ; Allergens:
+FoodName:Assorted Powerade    ; Allergens:
+FoodName:Add On Soy Milk    ; Allergens:Soybeans
+FoodName:Canned Soda 12 PK    ; Allergens:
+FoodName:16 oz Soda    ; Allergens:
+FoodName:16 oz Juice    ; Allergens:
+FoodName:Assorted Soy Chugs    ; Allergens:Milk
+FoodName:Dasani Water Liter    ; Allergens:
+FoodName:Assorted Odwalla Half Gallons    ; Allergens:
+FoodName:Superfoods Half Gal    ; Allergens:Soybeans
+FoodName:Chilled Cucumber Mint Tisane    ; Allergens:
+FoodName:Orange Basil Tisane    ; Allergens:
+FoodName:Agua Fresca Strawberry    ; Allergens:
+FoodName:20 oz Soda    ; Allergens:
+FoodName:Regular Coffee    ; Allergens:
+FoodName:Decaf Coffee    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:12 oz Au Lait    ; Allergens:Milk
+FoodName:Steamed Milk 8 oz    ; Allergens:Milk
+FoodName:Steamed Milk 12 oz    ; Allergens:Milk
+FoodName:House Tea    ; Allergens:Milk
+FoodName:Espresso 2 oz    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Cappuccino 12 oz    ; Allergens:Milk
+FoodName:Cappuccino 16 oz    ; Allergens:Milk
+FoodName:Latte 12 oz    ; Allergens:Milk
+FoodName:Mocha 12 oz    ; Allergens:Milk
+FoodName:Mocha 16 oz    ; Allergens:Milk
+FoodName:Hot Chocolate 12 oz    ; Allergens:Milk
+FoodName:Hot Chocolate 8 oz    ; Allergens:Milk
+FoodName:House Coffee 16 oz    ; Allergens:Milk
+FoodName:House Coffee 12 oz    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Small Hot Cider 8 oz    ; Allergens:
+FoodName:Large Hot Cider 16 oz    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Regular Coffee 12 oz    ; Allergens:Milk
+FoodName:Regular Coffee 16 oz    ; Allergens:Milk
+FoodName:Regular Coffee 8 oz    ; Allergens:Milk
+FoodName:Regular Coffee 12 oz    ; Allergens:Milk
+FoodName:Regular Coffee 16 oz    ; Allergens:Milk
+FoodName:Chai Tea Latte 16 oz    ; Allergens:Milk
+FoodName:Oregon Chai Concentrate    ; Allergens:Milk
+FoodName:Eggnog
