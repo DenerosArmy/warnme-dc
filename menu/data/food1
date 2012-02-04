@@ -1,0 +1,1064 @@
+FoodName:Macaroni & Cheese    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Veggie Quesadillas    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cheese Enchiladas    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cheese Enchilada Casserole    ; Allergens:Milk, Soybeans
+FoodName:Stuffed Zucchini    ; Allergens:Milk, Eggs, Wheat
+FoodName:Vegetarian Spinach Quiche    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Vegetarian Mushsroom Quiche    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Cheesy/ quinoa    ; Allergens:Milk
+FoodName:Mushroom Onion Quiche Crustles    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Zucchini Fritatta    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Broccoli Souffle    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Eggplant Parmesan    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Spinach Souffle    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Fettucini Alfredo    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Vegetable Lasagne    ; Allergens:Milk, Wheat
+FoodName:Chili Relleno Bake    ; Allergens:Milk, Eggs
+FoodName:Tortellini w/Marinara Sauce    ; Allergens:Milk, Eggs, Wheat
+FoodName:Vegetarian Nacho Casserole    ; Allergens:Milk
+FoodName:Broccoli Lasagne    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Broccoli Fritatta    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Veg Stuffed Peppers    ; Allergens:Soybeans
+FoodName:Broccoli Quiche    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Cheese Lasagne V    ; Allergens:Milk, Wheat
+FoodName:Vegetable Lasagne    ; Allergens:Milk, Eggs, Wheat
+FoodName:Cheese Manicotti    ; Allergens:Milk, Eggs, Wheat
+FoodName:Cheese Ravilois w/Pesto Sce    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Cheese Souffle    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Carrot & Green Onion Quiche    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Spinach Fritatta    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Cheese Ravioli w/Spag Sauce    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Rice and Vegetable Fritatta    ; Allergens:Milk, Eggs
+FoodName:Broccoli Au Gratin V    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Rosy Macaroni & Cheese    ; Allergens:Milk, Wheat
+FoodName:Grilled Cheese Quesadilas    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Penne w/ Eggplant and Mozz    ; Allergens:Milk, Wheat
+FoodName:Vegetarian Mostaccoli    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Twist Macaroni and Cheese    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Broccoli Mushroom Quiche    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Vegetarian Joe's Special    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Black Bean Enchiladas    ; Allergens:Milk, Wheat
+FoodName:Polenta w/Tomato/ Gorgonzola V    ; Allergens:
+FoodName:Tomato & Eggplant Casserole V    ; Allergens:Milk
+FoodName:Sicilia Pasta    ; Allergens:Milk, Wheat
+FoodName:Ricotta Lasagne    ; Allergens:Milk, Eggs, Wheat
+FoodName:Tomato and Pesto Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Baked and Stuffed Rigatoni    ; Allergens:Milk, Wheat
+FoodName:Vegan Quesadillas    ; Allergens:Wheat, Soybeans
+FoodName:Noodles Florentine    ; Allergens:Milk, Eggs, Wheat
+FoodName:Spinach Lasagne    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Spinach & Mushroom Quiche    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Chili Strada    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Vegan Baked Rigatoni    ; Allergens:Wheat
+FoodName:Vegetarian Nachos    ; Allergens:Milk, Soybeans
+FoodName:Cheese Strada    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Baked Rigatoni w/White Sauce    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Soft Vegetarian Taco V    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cheese Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cheese Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Mozzarella & Sausage Pizza    ; Allergens:Wheat, Soybeans
+FoodName:BBQ  Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Pot/Spinach Torta Casserole    ; Allergens:Milk, Eggs, Wheat
+FoodName:Spinach Pie    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Greens Pizza Whole Wheat    ; Allergens:Wheat
+FoodName:Penne w/Pesto    ; Allergens:Milk, Wheat
+FoodName:Grilled Cheese/Eggplant V    ; Allergens:Milk
+FoodName:Linguini w/Pesto Sauce    ; Allergens:Milk, Wheat
+FoodName:Mediterranean Linguini    ; Allergens:Milk, Wheat
+FoodName:Spinach Lasagne    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Olive Rice Casserole    ; Allergens:Milk, Soybeans
+FoodName:Spinach/Mushrm Crepe Filling V    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cheese Quesadillas    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Quesadilla Cheese Mixture V    ; Allergens:Milk
+FoodName:Green Chili & Cheese Tamales    ; Allergens:Milk
+FoodName:Broccoli & Tomato Ziti    ; Allergens:Milk, Wheat
+FoodName:Stuffed Yellow Peppers    ; Allergens:Milk
+FoodName:Artichoke, Almd, Mush Phyllo    ; Allergens:Milk, Eggs, Tree Nuts
+FoodName:Fuscili with Alfredo Sauce    ; Allergens:Milk, Wheat
+FoodName:Jazzed Primavera    ; Allergens:Milk, Wheat
+FoodName:Creamy Polenta V    ; Allergens:Milk
+FoodName:Sndrd Tomato/Basil Fritatta    ; Allergens:Eggs
+FoodName:WW Tomato and Pesto Pizza    ; Allergens:Milk, Wheat
+FoodName:Blk Bean Enchilada Casserole    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cheese Lasagna XRDS V    ; Allergens:Milk, Wheat
+FoodName:Veg Baked Rigatoni XRDS VEG    ; Allergens:Milk, Wheat
+FoodName:Baked Cheese Raviloi XRDS    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Macaroni & Cheese    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Greek Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Portabello Feta Pizza    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Cheese Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Sundried Tomato Pesto Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Mushroom Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Southwest Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Greens Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Cajun Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Matzo Lasagne    ; Allergens:Milk, Wheat
+FoodName:2 Cheese & Olive Baked Penne    ; Allergens:Milk, Wheat
+FoodName:WW Cheese Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Cheese Pizza Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Roasted Garlic Primavera    ; Allergens:Milk, Wheat
+FoodName:Fusilli w/Sundried Tomatoes    ; Allergens:Milk, Wheat
+FoodName:Tortellini w/Veggie/Basil    ; Allergens:Milk, Eggs, Wheat
+FoodName:Pasta w/Creamy Basil Sauce    ; Allergens:Tree Nuts, Wheat
+FoodName:Penne with Artichokes    ; Allergens:Milk, Wheat
+FoodName:3 Cheese Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Greek Pizza w/Feta & Olives    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Bok Choy Tofu Pizza    ; Allergens:Wheat, Soybeans
+FoodName:WW Mozz & Sausage Pizza Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Pineapple Pepper Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Tomato Mushroom Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Onion & Pepper Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Spinach Mushroom Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Tomato Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:4 Cheese Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Broccoli Zucchini Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:WW Greens Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Tomato Mushroom Onion Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Mushroom Olive Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Pesto Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Deluxe Vegetable Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:WW Greek Pizza V    ; Allergens:Milk, Wheat
+FoodName:Florentine Rigatoni    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Straw And Hay Pasta    ; Allergens:Milk, Wheat
+FoodName:WW Spinach Mushroom Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Portabello Feta Pizza    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:WW Cheese Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Sndrd Tomato Pesto Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Mushroom/Cheese Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Southwest Pizza    ; Allergens:Milk, Wheat
+FoodName:Deconstructed Vegan Eggplant Parmesan    ; Allergens:Wheat, Soybeans
+FoodName:WW Greens Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Cajun Pizza W/ Chix Sausage    ; Allergens:Milk, Wheat
+FoodName:WW 3 Cheese Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Greek Pizza/Feta & Olives    ; Allergens:Milk, Wheat
+FoodName:WW Bok Choy Tofu Pizza    ; Allergens:Wheat, Soybeans
+FoodName:WW Pineapple Pepper Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Tomato Mushroom Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Onion & Pepper Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Spinach Mushroom Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Tomato Pizza    ; Allergens:Milk, Wheat
+FoodName:WW 4 Cheese Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Broccoli Zucchini Pizza V    ; Allergens:Milk, Wheat
+FoodName:WW Tomato Mushrm Onion Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Mushroom Olive Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Pesto Pizza    ; Allergens:Milk, Wheat
+FoodName:WW Deluxe Vegetable Pizza    ; Allergens:Milk, Wheat
+FoodName:Chese Raviolis w/Rst Veg Sce    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Pesto Lasagne V    ; Allergens:Milk, Wheat
+FoodName:Stuffed Tomatoes V    ; Allergens:Milk, Wheat
+FoodName:Cheese Quesadillas    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Spicy Quinoa/Potato Croquet    ; Allergens:Milk, Eggs, Wheat
+FoodName:Zucchini Gratin With Rice    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Quinoa, Corn, Gr Onions/Chese    ; Allergens:Milk
+FoodName:Stuffed Squash w/Bulgar/Feta    ; Allergens:Milk, Tree Nuts, Wheat
+FoodName:Artichoke  Mushroom Casserole    ; Allergens:Wheat
+FoodName:Summer Squash/Herb/Rice Gratin    ; Allergens:
+FoodName:Quinoa and Onion Risotto    ; Allergens:Soybeans
+FoodName:New Eng Pie w/Chz/Green Onion    ; Allergens:Milk, Eggs, Wheat
+FoodName:Cabbage Gratin/Pain Au Chou    ; Allergens:Milk, Eggs, Wheat
+FoodName:Pizza Sticks    ; Allergens:Wheat, Soybeans
+FoodName:Harry's Mac & Cheese    ; Allergens:Milk, Eggs, Wheat
+FoodName:Plain Crepe    ; Allergens:Milk, Eggs, Wheat
+FoodName:Harry's Mac & Cheese Late Nigh    ; Allergens:Milk, Eggs, Wheat
+FoodName:Harry's Mac & Cheese Side LN    ; Allergens:Milk, Eggs, Wheat
+FoodName:Baked Ziti    ; Allergens:Milk, Wheat
+FoodName:Vegetable/3 Cheese Lasagne    ; Allergens:Milk, Eggs, Wheat
+FoodName:Foothill's Mac & Cheese    ; Allergens:Milk, Eggs, Wheat
+FoodName:Navy Beans & Pasta Gratin    ; Allergens:Milk, Wheat
+FoodName:Foothill's Super Rice/Bean Burrito    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Ricotta Lasagne    ; Allergens:Milk, Eggs, Wheat
+FoodName:Foothill's Reg Rice/Bean Burrito    ; Allergens:Wheat, Soybeans
+FoodName:Nacho Pasta    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cheesy Pasta Bake    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Ranch Bake    ; Allergens:Milk, Wheat, Soybeans
+FoodName:BBQ Tofu  Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Mexican Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Very Veggie Vegan Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Asparagus Frittata    ; Allergens:Milk, Eggs
+FoodName:Savory Crepe Bar    ; Allergens:Milk, Eggs, Wheat
+FoodName:Sweet Crepe Bar    ; Allergens:Milk, Eggs, Wheat
+FoodName:Cheese Quesadilla LBL    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Smoked Gouda Mac & Cheese    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Vegan Vegetable Tofu Pizza    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Vegetable Pizza    ; Allergens:Wheat, Soybeans
+FoodName:QC Harry's Mac & Cheese 12 oz    ; Allergens:Milk, Eggs, Wheat
+FoodName:Red Pepper & Spinach Frittata    ; Allergens:Eggs
+FoodName:Ham and Cheese Frittata    ; Allergens:Milk, Eggs
+FoodName:Asparagus with Goat Cheese Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Portabello Napolitana Veg    ; Allergens:Soybeans
+FoodName:Vegetable Fritatta    ; Allergens:Milk, Eggs
+FoodName:Tostada Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Nachos Late Night FH    ; Allergens:Milk, Soybeans
+FoodName:Indvd Veggie Pizza LN FH    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cauliflower Augratin    ; Allergens:Milk, Wheat
+FoodName:Vegan Riblet    ; Allergens:Wheat, Soybeans
+FoodName:LBL Vegetable Lasagne    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Parm. Roasted Broccoli w/ Lemon    ; Allergens:Milk
+FoodName:Vegetarian Nachos    ; Allergens:Milk, Soybeans
+FoodName:Hshbrn Crepe/Maple Apple Glaze    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Flamin' Acadian Skillet    ; Allergens:Milk
+FoodName:Jalapeno Jack Quiche    ; Allergens:Milk, Eggs, Soybeans
+FoodName:    ; Allergens:
+FoodName:Cheese Quesadillas w/Blk Olive    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Spinach & Mushroom Quiche    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Rst Asparagus /Lemon & Asiago    ; Allergens:Milk
+FoodName:Artichoke/Goat Cheese Fritatta    ; Allergens:Milk, Eggs
+FoodName:Red Pepper & Zucchini Fritatta    ; Allergens:Eggs
+FoodName:Mushroom and Cheese Fritatta    ; Allergens:Milk, Eggs
+FoodName:Breakfast Frittata XRDS    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Breakfast Frittata    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Mediterranean Frittata    ; Allergens:Milk, Eggs, Soybeans
+FoodName:    ; Allergens:
+FoodName:Spinach Cheese Artichoke Dip    ; Allergens:Milk, Wheat
+FoodName:Rst Org Asparagus /Lemon & Asiago    ; Allergens:Milk
+FoodName:Mushroom and Cheese Fritatta    ; Allergens:Milk, Eggs
+FoodName:Ethiopian Collard Greens (Gomen)    ; Allergens:
+FoodName:Egg Foo Yung    ; Allergens:Eggs, Soybeans
+FoodName:Vegetarian Stir Fry    ; Allergens:Soybeans
+FoodName:WW Tofu Pizza    ; Allergens:Wheat, Soybeans
+FoodName:West Coast Pasta    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Baked Spaghetti    ; Allergens:Wheat
+FoodName:Vegetarian Fried Rice    ; Allergens:Soybeans
+FoodName:Tofu Vegetable Casserole Vgn    ; Allergens:Soybeans
+FoodName:Vegetable Chow Mein    ; Allergens:Wheat, Soybeans
+FoodName:Vegetarian Stuffed Cabbage    ; Allergens:
+FoodName:Spicy Eggplant    ; Allergens:Wheat, Soybeans
+FoodName:Vegetarian Spaghetti Vgn    ; Allergens:Wheat
+FoodName:Roasted Eggplant    ; Allergens:
+FoodName:Thai Tofu w/Zucchini, Red Pepp    ; Allergens:Soybeans
+FoodName:Pasta Primavera    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Garden Fettucini Vegetarian    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Vegan Pot Pie    ; Allergens:Wheat, Soybeans
+FoodName:Tofu Kabob    ; Allergens:Soybeans
+FoodName:Szechuan Tofu (Peanuts Serve On The Side)    ; Allergens:Peanuts, Wheat, Soybeans
+FoodName:Vegetarian Fried Rice    ; Allergens:Soybeans
+FoodName:Broccoli Walnut Stir Fry    ; Allergens:Tree Nuts, Soybeans
+FoodName:Tofu Picante Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Ratatouille w/Black Beans    ; Allergens:
+FoodName:Teriyaki Tofu Kabobs Vgn    ; Allergens:Soybeans
+FoodName:Sweet & Sour Tofu Kobobs Vgn    ; Allergens:Soybeans
+FoodName:BBQ Tofu Kabob Vgn    ; Allergens:Soybeans
+FoodName:Tofu Pot Pie    ; Allergens:Wheat, Soybeans
+FoodName:Zucchini Psta w/Raw Vgn Alf Sc    ; Allergens:Tree Nuts, Soybeans
+FoodName:Ravioli w/Rst Vegetable Sauce    ; Allergens:Wheat, Soybeans
+FoodName:Ginger Mushroom Stir Fry Vgn    ; Allergens:Soybeans
+FoodName:Pineapple Tofu Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Sweet and Sour Tofu Vgn    ; Allergens:Soybeans
+FoodName:Indian Vegetable Cutlet    ; Allergens:Tree Nuts, Wheat
+FoodName:Tofu Pot Pie    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Vegetarian Falafel in a Pita    ; Allergens:Eggs, Wheat
+FoodName:Vegan Quesadillas    ; Allergens:Wheat, Soybeans
+FoodName:Tamale Pie    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Gr Lentils/Bulgar/Spin/Yogurt    ; Allergens:Milk, Wheat
+FoodName:Mid East Gr Veg w/Couscous    ; Allergens:Wheat
+FoodName:Tofu w/Red Peppers & Blk Beans    ; Allergens:Soybeans
+FoodName:White Bean/Eggplant Graten    ; Allergens:Wheat
+FoodName:Tofu Rice Burger (w/Eggs)    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Ratatouille w/White Beans    ; Allergens:
+FoodName:TOFU LASAGNE    ; Allergens:Wheat, Soybeans
+FoodName:Pasta w/Southwestern Sce    ; Allergens:Wheat
+FoodName:Gr Egplt w Walnt Sce V    ; Allergens:Milk, Tree Nuts, Wheat
+FoodName:Barley Casserole    ; Allergens:
+FoodName:Adraki Gobi-Caulfwr w/Ginger    ; Allergens:
+FoodName:Baked Herbed Eggplant    ; Allergens:Wheat
+FoodName:Vegetable Curry    ; Allergens:
+FoodName:Succotash    ; Allergens:
+FoodName:Rigatoni and Red Beans Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Penne w/Sundried Tom/Artichoke    ; Allergens:Wheat
+FoodName:Tempeh Triangles W/Piccata Sce    ; Allergens:Wheat, Soybeans
+FoodName:Indian Curied Vegetables Vgn    ; Allergens:
+FoodName:Vegetarian Fried Rice    ; Allergens:Eggs, Soybeans
+FoodName:Vegetarian Fried Rice    ; Allergens:Wheat, Soybeans
+FoodName:Rigatoni w/Mushrooms/Mint    ; Allergens:Wheat
+FoodName:Vegetable Chow Mein    ; Allergens:Wheat, Soybeans
+FoodName:Pasta  w/Sundried Tom/Artichoke    ; Allergens:Wheat
+FoodName:GF Scrambled Tofu/Spinach/Tom    ; Allergens:Soybeans
+FoodName:Couscous w/Sweet Potato    ; Allergens:Wheat
+FoodName:Garam Masala w/Potatoes    ; Allergens:
+FoodName:Caramelized Pineapple & Tofu    ; Allergens:Wheat, Soybeans
+FoodName:Vegetable Pancit    ; Allergens:Soybeans
+FoodName:Algerian Vegetable Stew    ; Allergens:
+FoodName:Curried Garbonzo Tofu    ; Allergens:Soybeans
+FoodName:Bean Primavera Vgn    ; Allergens:Wheat
+FoodName:Millet & Chickpea Pilaf    ; Allergens:Milk
+FoodName:Millet w/Corn / Salsa    ; Allergens:
+FoodName:Curried Quinoa w/Carrot Jce    ; Allergens:
+FoodName:Sw Potato & Cash/Korma w/Rice    ; Allergens:Milk, Tree Nuts, Peanuts, Soybeans
+FoodName:Couscous/Quinoa/Pine Nuts    ; Allergens:Tree Nuts
+FoodName:Vegetarian Eggroll    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Vegetable Croquet    ; Allergens:Eggs, Wheat
+FoodName:Root Vegetable Medley Vgn    ; Allergens:
+FoodName:Portabella Mush Sandwich Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Qunioa Timbales w/Currants    ; Allergens:Tree Nuts
+FoodName:Rice/Chickpea Pilaf w/Pine Nut    ; Allergens:Tree Nuts
+FoodName:Toasted Millet    ; Allergens:Milk
+FoodName:Goulash    ; Allergens:Soybeans
+FoodName:Pasta w/Gr Vegetables Vgn    ; Allergens:Wheat
+FoodName:Patchwork Rice Vgn    ; Allergens:Tree Nuts, Soybeans
+FoodName:Vegetable Paella    ; Allergens:Tree Nuts
+FoodName:Spiced Cous Cous    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Curried Veg w/Coconut Milk    ; Allergens:Soybeans
+FoodName:Vegan Cupcakes    ; Allergens:Wheat
+FoodName:Spiced Vegetables    ; Allergens:Tree Nuts
+FoodName:Vegetable Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Savory Lentil Loaf    ; Allergens:Wheat, Soybeans
+FoodName:Empress Dal    ; Allergens:
+FoodName:Curried Vegetables    ; Allergens:
+FoodName:Fennel Fantasia Vgn    ; Allergens:
+FoodName:Gr Portabella Mush Cap    ; Allergens:
+FoodName:Udon Ndls w/Spring Veg Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Lentil/Brown Rice Casserole    ; Allergens:
+FoodName:Sunflower Cutlet Sandwich    ; Allergens:Tree Nuts, Wheat
+FoodName:Vegetable Rice Bowl Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Stewed Garbanzo & Potatoes    ; Allergens:
+FoodName:Coconut Pineapple Risotto Vgn    ; Allergens:Soybeans
+FoodName:New Orleans Veggie Stew    ; Allergens:
+FoodName:Roasted Vegetable Torta    ; Allergens:Milk, Soybeans
+FoodName:Vegetable Rice Bowl (CR/Late Night)    ; Allergens:Wheat, Soybeans
+FoodName:Tofu & Zucchini w/Hot Bn Sce    ; Allergens:Soybeans
+FoodName:Italian Vegetable Stew    ; Allergens:
+FoodName:Vegetarian Eggroll    ; Allergens:Wheat
+FoodName:Laing    ; Allergens:
+FoodName:Fld Gr Gardnburger w/o Bun Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Stir Fry Tofu w/Vegetable    ; Allergens:Soybeans
+FoodName:Fsh Mushrm /Angl Hair Psta Vgn    ; Allergens:Wheat
+FoodName:Spiced Veg Stir Fry    ; Allergens:Tree Nuts
+FoodName:Szechuan Eggplant Stir Fry    ; Allergens:Soybeans
+FoodName:Tofu Zuchini/Bean Stir Fry    ; Allergens:Soybeans
+FoodName:Sicilian Pasta    ; Allergens:Fish, Tree Nuts, Wheat
+FoodName:Pasta w/Frsh Tomato Sauce Vgn    ; Allergens:Wheat
+FoodName:Persian Rice Vgn    ; Allergens:
+FoodName:Vegetable Matzo Kugel W/Eggs    ; Allergens:Eggs, Wheat
+FoodName:Soy Taco    ; Allergens:Wheat, Soybeans
+FoodName:Tofu Pizza    ; Allergens:Wheat, Soybeans
+FoodName:GF Italian Garbanzo Stew    ; Allergens:
+FoodName:Indian Stir Fried Zucchini    ; Allergens:
+FoodName:Hoppin John Vgn    ; Allergens:
+FoodName:Deep Fried Pot Stir Fry Vgn    ; Allergens:
+FoodName:Eggplant Stir Fry Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Soy Meat & Potato    ; Allergens:Wheat, Soybeans
+FoodName:Masala Veggie Burgers    ; Allergens:Wheat
+FoodName:Japanese Eggplant Stir Fry    ; Allergens:
+FoodName:Song-I Bahb Vgn    ; Allergens:Soybeans
+FoodName:Ratatouille    ; Allergens:
+FoodName:Mushroom Risotto    ; Allergens:
+FoodName:Orange/Tofu/Cabbage Stir Fry    ; Allergens:Soybeans
+FoodName:Baked Polenta w/Tom/Mushroom GF    ; Allergens:
+FoodName:Fried Tofu with Peanut Sce Vgn    ; Allergens:Peanuts, Soybeans
+FoodName:BBQ Tofu w/Spicy Mustard Green    ; Allergens:Soybeans
+FoodName:Grn Beans with Red Peppers Vgn GF    ; Allergens:Tree Nuts, Soybeans
+FoodName:Garbanzo, Caul/Tom Graten    ; Allergens:Wheat
+FoodName:Eggplant Potato Curry Vgn    ; Allergens:
+FoodName:Vegetarian Fajita Filling Vgn    ; Allergens:
+FoodName:Agedashi Tofu    ; Allergens:Soybeans
+FoodName:Potato & Pea Curry Vgn    ; Allergens:
+FoodName:Eggplant Ratatouille    ; Allergens:
+FoodName:Gr Lentils w/Wine Glz Veggies    ; Allergens:Milk
+FoodName:Dirty Rice    ; Allergens:Soybeans
+FoodName:Korean Braised Tofu Stew GF    ; Allergens:Soybeans
+FoodName:GF Mushroom Strata Polenta    ; Allergens:
+FoodName:Gado Gado    ; Allergens:Eggs, Peanuts, Soybeans
+FoodName:Oriental Noodles    ; Allergens:Wheat, Soybeans
+FoodName:Asian Bowl Vegetables Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Portabello Mushroom Stew    ; Allergens:
+FoodName:Marinated Tofu Vgn    ; Allergens:Soybeans
+FoodName:Caul/Pot/Spinach Stir Fry Vgn    ; Allergens:
+FoodName:Artichoke & Potato Ragout    ; Allergens:Wheat
+FoodName:Tunisian Vegetable Stew    ; Allergens:
+FoodName:Gr Portobello Mushrooms Vgn    ; Allergens:
+FoodName:Sweet &Sour    ; Allergens:Soybeans
+FoodName:Nasi Goreng    ; Allergens:Peanuts, Soybeans
+FoodName:Corn and Lima Bean Ragout    ; Allergens:
+FoodName:Coconut Squash and Tofu Stew    ; Allergens:Soybeans
+FoodName:Tunisian Tom/Pepper Stew Vgn    ; Allergens:
+FoodName:Celebration Roast    ; Allergens:Wheat
+FoodName:Tempeh & Tofu Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Grilled Vegetable Kabob Vgn    ; Allergens:
+FoodName:Field Roast Parmesan Cutlet    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Field Rst Italian Sausage Vgn    ; Allergens:Tree Nuts, Wheat
+FoodName:Pumpkin Ravioli w/Mozz/Parsley    ; Allergens:Wheat, Soybeans
+FoodName:Dal    ; Allergens:
+FoodName:Vegetable Potstickers    ; Allergens:Wheat, Soybeans
+FoodName:Hashbrown Pot/Sausage/Blk Bean    ; Allergens:Wheat
+FoodName:Southwestern Tofu Scramble    ; Allergens:Wheat, Soybeans
+FoodName:GF Tofu Sausage Rumble    ; Allergens:Soybeans
+FoodName:General Tso's Tofu    ; Allergens:Wheat, Soybeans
+FoodName:Southwestern Tofu Wrap Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Gr Vegetable Skewers Vgn    ; Allergens:
+FoodName:Mushroom Barley Risotto    ; Allergens:
+FoodName:Tofu Nicoise    ; Allergens:Soybeans
+FoodName:BBQ Tofu Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Falafel Balls    ; Allergens:
+FoodName:Tzatziki Vgn    ; Allergens:Soybeans
+FoodName:Falafel Sandwich    ; Allergens:Wheat
+FoodName:Falafel Sandwich Platter  V    ; Allergens:Wheat, Soybeans
+FoodName:CousCous w/Aprcts & Nuts Vgn    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Blackened Tofu    ; Allergens:Soybeans
+FoodName:Curried Tofu Wrap Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Influenced Vegetable Stew    ; Allergens:
+FoodName:PineNut Bulgar Pilaf w/Currant    ; Allergens:Tree Nuts, Wheat
+FoodName:Wild Rice Pilaf w/Orange/Cherry    ; Allergens:Wheat, Soybeans
+FoodName:Bow Tie Buckwheat    ; Allergens:Milk, Eggs, Wheat
+FoodName:Tomato Tunisian Stew    ; Allergens:Milk
+FoodName:Basmati Style Rice Pilaf    ; Allergens:
+FoodName:Bulgur Noodle Pilaf w/Onion    ; Allergens:Wheat
+FoodName:MTO Late Nite Veg Rice Bwl Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Field Roast Coconut Cutlet    ; Allergens:Tree Nuts, Wheat
+FoodName:Mai's Jungle Curry    ; Allergens:Soybeans
+FoodName:Dal    ; Allergens:
+FoodName:Sour Chickpeas w/Garam Masala    ; Allergens:
+FoodName:Influenced Vegetable Stew    ; Allergens:
+FoodName:Simple Dal w/Ginger/Cilantro    ; Allergens:
+FoodName:Sukhi's Madras Curry    ; Allergens:
+FoodName:Sukhi's Saag Paneer    ; Allergens:Milk
+FoodName:Soyrizo Scramble    ; Allergens:Soybeans
+FoodName:Soyrizo Scramble    ; Allergens:Soybeans
+FoodName:Egyptian Rice Lentil Pasta Vgn    ; Allergens:Wheat
+FoodName:Simple Dal With Cumin    ; Allergens:
+FoodName:Cabbage w/Red Pepper & Peas    ; Allergens:
+FoodName:Pumpkin Ravioli w/Sage Butter    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Rajma    ; Allergens:
+FoodName:Sukhi's Channa Dal Vgn    ; Allergens:
+FoodName:Green Chilaquiles w/Eggs    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Potato and Pea Poha    ; Allergens:
+FoodName:Spicy Peas w/Ginger    ; Allergens:
+FoodName:Spinach & Potatoes    ; Allergens:
+FoodName:Veg Strudel w/Rst Red Pep Sc    ; Allergens:Wheat
+FoodName:Mai's Claypot Tofu    ; Allergens:Wheat, Soybeans
+FoodName:Chard Ravioli    ; Allergens:Wheat
+FoodName:Falafel Bar    ; Allergens:Milk, Wheat
+FoodName:Gryo Bar    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Portabello/Hominy Casserole    ; Allergens:
+FoodName:Pasta w/ Chickpeas & Bacon    ; Allergens:Milk, Wheat
+FoodName:Rigatoni/Mushrooms & Mint    ; Allergens:Wheat
+FoodName:Lemon Lime Panko Rice    ; Allergens:Eggs, Wheat
+FoodName:Veg Noodle Station    ; Allergens:Wheat, Soybeans
+FoodName:Veg Fried Rice Bar    ; Allergens:Wheat, Soybeans
+FoodName:Noodle Station Pho    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Mu Shu Vegetable Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Rst Garbonzo Bean/Garlic/Chard    ; Allergens:
+FoodName:Stir Fry Bar    ; Allergens:Peanuts, Wheat, Soybeans
+FoodName:Blk Bean Burger w/Spcy Cucumber    ; Allergens:Wheat
+FoodName:BBQ Tempeh Sandwich    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Mushroom Nut Loaf    ; Allergens:Tree Nuts, Soybeans
+FoodName:Risotto Cakes w/Coconut/Lem Gr    ; Allergens:Soybeans
+FoodName:Risotto Cakes w/Coconut/Lem Gr    ; Allergens:Soybeans
+FoodName:Roasted Broccoli w/Lemon GF    ; Allergens:
+FoodName:Butternut Squash Risotto Vgn    ; Allergens:
+FoodName:Butternut Squash Risotto Vgn    ; Allergens:
+FoodName:LBL Spicy SW BBQ Blk Bean Burg    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Mushroom Ravioli w/Sage Butter    ; Allergens:Milk, Wheat
+FoodName:Spicy Lmgrs Tofu w/Thai Ch    ; Allergens:Peanuts, Soybeans
+FoodName:Imm Jaddara Lentils & Rice    ; Allergens:
+FoodName:Celery Stir Fry    ; Allergens:Soybeans
+FoodName:Garbanzo/Potato/Tom Stew    ; Allergens:
+FoodName:Rst Eggplant/Onion/Squash    ; Allergens:
+FoodName:Pasta w/Chick Peas and Spinach    ; Allergens:Wheat
+FoodName:Spicy Lmgras w/Serrano Tofu    ; Allergens:Peanuts, Soybeans
+FoodName:Garden Chix Strips    ; Allergens:Wheat, Soybeans
+FoodName:Corn Curry    ; Allergens:Milk, Wheat
+FoodName:Spicy Squash/Eggplt/Lentil Stew    ; Allergens:
+FoodName:Stir Fried Mushroom/Onion/Tom    ; Allergens:
+FoodName:Caulfower In Piquant Tom Sce    ; Allergens:
+FoodName:Tofurkey    ; Allergens:Wheat, Soybeans
+FoodName:Sweet & Sour Squash w/Chili    ; Allergens:
+FoodName:Braised Potatoes In Yogurt Sauce    ; Allergens:Milk
+FoodName:Mushroom Ravioli    ; Allergens:Wheat
+FoodName:Hazelnut En Croute    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Corn and Lima Bean Ragout    ; Allergens:
+FoodName:Mock Egg Salad    ; Allergens:Soybeans
+FoodName:Black Bean Enchiladas    ; Allergens:Wheat, Soybeans
+FoodName:Balsamic Rst Brussels Sprouts    ; Allergens:Tree Nuts
+FoodName:HB Chocolate Cupcakes    ; Allergens:Wheat
+FoodName:Vegan Chix Stir Fry w/Oriental Sce    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Chicken Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Broccoli/Chix Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Ginger Broccoli Beef    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Vegan "Beef" Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Beef/Tomato Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Vegetable Chow Mein    ; Allergens:Wheat, Soybeans
+FoodName:MTO Vegterian Rice Bowl    ; Allergens:Wheat, Soybeans
+FoodName:Vegetable Potstickers    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Cauliflower KooKoo    ; Allergens:Eggs
+FoodName:Bok Choy w/Blk Bean Garlic Sce    ; Allergens:
+FoodName:Eggplant w/Sour Cream    ; Allergens:Milk
+FoodName:GR MEAT BROCHETTES    ; Allergens:Milk, Eggs
+FoodName:Sour Chicken Stew    ; Allergens:Eggs
+FoodName:Stuffed Apple    ; Allergens:
+FoodName:Tomato & Cucumber Gojeh Khi    ; Allergens:
+FoodName:Yogurt And Spinach    ; Allergens:Milk
+FoodName:Zoulbia    ; Allergens:Wheat
+FoodName:Zoulbia Suryp    ; Allergens:
+FoodName:Banieh Rosewater Syrup    ; Allergens:
+FoodName:Bamieh    ; Allergens:Milk, Eggs, Wheat
+FoodName:Thanksgiving Grain Roast    ; Allergens:
+FoodName:Smoked Spiced Eggplant    ; Allergens:
+FoodName:Peas w/Tofu/Tomato Sce    ; Allergens:Milk, Soybeans
+FoodName:Indian Stuffed Bell Peppers    ; Allergens:Eggs
+FoodName:Stir Fried Carrots w/Cumin/Lime    ; Allergens:
+FoodName:Stir Fried Gr Beans w/Cumin    ; Allergens:
+FoodName:Stir Fried Gr Beans w/Coconut    ; Allergens:
+FoodName:Chili Tau Kwa w/Vegetables    ; Allergens:Wheat, Soybeans
+FoodName:Curry Summer Vegetables    ; Allergens:
+FoodName:Vegetable Jambalaya    ; Allergens:Wheat, Soybeans
+FoodName:Rice Noodles/Cabbage/Bamboo    ; Allergens:Soybeans
+FoodName:Artichoke Red Pepper Focaccia Pizza    ; Allergens:Wheat
+FoodName:Sundried Tomato Focaccia Pizza    ; Allergens:Wheat
+FoodName:Olive & Caper Focaccia Pizza    ; Allergens:Wheat
+FoodName:Scallion & Cilantro Focaccia Pizza    ; Allergens:Wheat
+FoodName:Zucchini & Onion Focaccia Pizza    ; Allergens:Wheat
+FoodName:Butternut Squah/Corn Enchilada    ; Allergens:Wheat, Soybeans
+FoodName:Quinoa Stew    ; Allergens:
+FoodName:EGGPLANT W/ BULGAR    ; Allergens:Tree Nuts, Wheat
+FoodName:Melitzanes Yiahni    ; Allergens:
+FoodName:Vegetarian Pozole    ; Allergens:
+FoodName:Sauteed Radishes w/ Tarragon    ; Allergens:
+FoodName:Glazed Red Onions & Grapes    ; Allergens:
+FoodName:Vegan Spinach Enchilada    ; Allergens:Wheat, Soybeans
+FoodName:Maverick's Stew    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Cassitore    ; Allergens:
+FoodName:Vegan Coconut Curry    ; Allergens:
+FoodName:Vegan Sausage Tuscany    ; Allergens:Tree Nuts, Wheat
+FoodName:Vegan Picatta    ; Allergens:Soybeans
+FoodName:Vegan Sweet & Sour "Chicken"    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Fall Quinoa Risotto    ; Allergens:Soybeans
+FoodName:ROASTED RADISHES    ; Allergens:
+FoodName:Spicy Vegetable Curry    ; Allergens:
+FoodName:3 Sisters Casserole    ; Allergens:
+FoodName:Fry Bread    ; Allergens:Wheat, Soybeans
+FoodName:Vegetable Fried Rice    ; Allergens:
+FoodName:Deluxe Vegetable Focaccia Pizza    ; Allergens:Wheat
+FoodName:Butternut Squah/Corn Enchilada Casserole    ; Allergens:Wheat, Soybeans
+FoodName:South Western Chili Mac    ; Allergens:Wheat
+FoodName:Vegan Chicken Chilaquiles    ; Allergens:Wheat, Soybeans
+FoodName:Pistachio Pesto With Whole Grain Pasta    ; Allergens:Tree Nuts, Wheat
+FoodName:5 Spiced Tofu    ; Allergens:Soybeans
+FoodName:Vegan Breakfast Burrito    ; Allergens:Wheat, Soybeans
+FoodName:Vegan Sloppy Joe's    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Asparagus/Garlic/Tofu Pasta    ; Allergens:Wheat, Soybeans
+FoodName:Blatjang Chutney    ; Allergens:Tree Nuts
+FoodName:Veggie Empanada GBC    ; Allergens:Wheat
+FoodName:Vegetarian Meatballs    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Vegetarian Lettuce Wraps    ; Allergens:Peanuts, Wheat, Soybeans
+FoodName:Vegetarian Burger    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Vegan Parmesean Cutlet    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Stir Baby BokChoy    ; Allergens:Wheat
+FoodName:Yu Choy Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Eggplant and Tofu Curry    ; Allergens:Milk, Soybeans
+FoodName:Hazelnut Cutlet w/Saus Mush Sc    ; Allergens:Tree Nuts, Wheat
+FoodName:Field Roast Cutlet Sand Vgn    ; Allergens:Milk, Tree Nuts, Wheat, Soybeans
+FoodName:Field Roast Cutlet Sandwich    ; Allergens:Milk, Tree Nuts, Wheat, Soybeans
+FoodName:Garlic  Aioli    ; Allergens:Soybeans
+FoodName:Fried Tofu /Green Cury Sce (V)    ; Allergens:Milk, Fish, Crustacean Shellfish, Wheat, Soybeans
+FoodName:Tandoori Spiced Tofu    ; Allergens:Soybeans
+FoodName:Vegan Sloppy Joes    ; Allergens:Tree Nuts, Wheat, Soybeans
+FoodName:Stewed Italian Sausage    ; Allergens:Tree Nuts, Wheat
+FoodName:Field Rst Sausage Gr Apl Vgn    ; Allergens:Wheat
+FoodName:Field Rst Gr  Ital Saus    ; Allergens:Tree Nuts, Wheat
+FoodName:Coconut Cutlet w/Masala Sauce    ; Allergens:Tree Nuts, Wheat
+FoodName:LBL Tarragon Aioli    ; Allergens:Eggs, Soybeans
+FoodName:"Chicken" Ranch Wrap    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Bean Stroganoff    ; Allergens:Milk, Wheat
+FoodName:Vegetarian Chili    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Lentil and Red Pepper Stew V    ; Allergens:Milk, Soybeans
+FoodName:Black Bean Chili    ; Allergens:
+FoodName:Bean Burrito    ; Allergens:Wheat, Soybeans
+FoodName:Springtime Lentils & Fet Vgn    ; Allergens:Wheat
+FoodName:Indn Vegetable Stew w/Dal Vgn    ; Allergens:Soybeans
+FoodName:    ; Allergens:
+FoodName:Black Bean Burrito    ; Allergens:Wheat, Soybeans
+FoodName:Red Beans and Rice    ; Allergens:
+FoodName:Black Bean Soft Tacos    ; Allergens:Wheat, Soybeans
+FoodName:Lentils & Rice w/Onions    ; Allergens:
+FoodName:Sweet and Sour Beans    ; Allergens:Soybeans
+FoodName:Jamaican Rice And Peas    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Curried Garbanzos    ; Allergens:
+FoodName:Garlicky Lentil Salad    ; Allergens:
+FoodName:Lentil Vegetable Stew    ; Allergens:
+FoodName:White Beans with Swiss Chard    ; Allergens:
+FoodName:BLACK BEAN QUINOA CAKE    ; Allergens:
+FoodName:Grilled Peppers and Onions    ; Allergens:
+FoodName:Organic Popcorn    ; Allergens:
+FoodName:Organic Nonpareil Pasteurized Almonds    ; Allergens:Tree Nuts
+FoodName:    ; Allergens:
+FoodName:Organic Sesame Noodle Salad    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Organic Tossed Salad Mix    ; Allergens:
+FoodName:Organic Roma Tomatoes Wedged    ; Allergens:
+FoodName:Organic Tomato Wedges    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Organic Red Cabbage Shredded    ; Allergens:
+FoodName:Organic Red Grapes    ; Allergens:
+FoodName:Organic Chopped Green Onions    ; Allergens:
+FoodName:Braised Baby Bok Choy    ; Allergens:
+FoodName:Org Red Pepper & Zuc Fritatta    ; Allergens:Milk, Eggs
+FoodName:Organic Cucumber Mint Tisane    ; Allergens:
+FoodName:Organic Buttermilk Biscuits    ; Allergens:Milk
+FoodName:Organic Cheese/Cracker Platter    ; Allergens:Milk
+FoodName:Organic Antipasto Platter    ; Allergens:Soybeans
+FoodName:Organic Sauteed Zucchini/Onion    ; Allergens:
+FoodName:Organic Cheddar Broccoli Soup    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Organic Cheddar Broccoli Soup    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Organic Zesty Pasta Salad    ; Allergens:Wheat, Soybeans
+FoodName:Org Cherry Tomato/Mushroom  Sld    ; Allergens:Soybeans
+FoodName:Org Pasta w/Garlic Salad    ; Allergens:Wheat
+FoodName:Organic Broccoli Coleslaw    ; Allergens:Eggs, Soybeans
+FoodName:Organic Sesame Noodle Salad    ; Allergens:Wheat, Soybeans
+FoodName:Organic Broccoli Toss Salad    ; Allergens:Soybeans
+FoodName:Organic Herbed Pasta Salad    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Organic Three Bean Salad    ; Allergens:Soybeans
+FoodName:Organic Cuc/Tom/Corn Salad    ; Allergens:
+FoodName:Organic Creamy Coleslaw Salad    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Org Marinated Veggie Salad    ; Allergens:Soybeans
+FoodName:Organic Marinated Mushrms    ; Allergens:Soybeans
+FoodName:Organic Carrot Raisin Salad    ; Allergens:Eggs, Soybeans
+FoodName:Organic Lentil Salad    ; Allergens:Soybeans
+FoodName:Organic Broccoli/Tomato Salad    ; Allergens:
+FoodName:Organic Macaroni Salad    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Organic Orzo Salad    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Organic Penne Pasta Salad    ; Allergens:Wheat, Soybeans
+FoodName:Organic 3 Bean Salad    ; Allergens:
+FoodName:Org Azuki Bean Sld w/Wasabi V    ; Allergens:Milk, Soybeans
+FoodName:Organic Black Bean/Corn Salad    ; Allergens:
+FoodName:Org Couscous/Blk Bean w/Feta    ; Allergens:Milk, Wheat
+FoodName:Org Broccoli & Tom Salad    ; Allergens:Soybeans
+FoodName:Org Garb Bean/Cherry Tom Salad    ; Allergens:Soybeans
+FoodName:Organic Marinated Beets    ; Allergens:
+FoodName:Organic Cuc/Tom/Corn Salad    ; Allergens:
+FoodName:Organic Sesame Noodle Sld Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Org Spicy Spelt/Tofu Salad    ; Allergens:Wheat, Soybeans
+FoodName:Org Couscous/Blk Bean Sld    ; Allergens:Wheat
+FoodName:Organic Beets Vgn    ; Allergens:
+FoodName:Organic Canelli Bean Salad    ; Allergens:Soybeans
+FoodName:Tossed Salad Vgn    ; Allergens:Milk, Soybeans
+FoodName:Organic Seeded Spelt Salad    ; Allergens:Peanuts, Wheat
+FoodName:Org Tomato Couscous Salad    ; Allergens:Wheat, Soybeans
+FoodName:Org Balsamic Feta Beet Salad    ; Allergens:Milk, Soybeans
+FoodName:Organic Couscous    ; Allergens:Wheat
+FoodName:Org Garbz & Rst Pepper Sld    ; Allergens:
+FoodName:Org Bulgar/Lentil/Garb Salad    ; Allergens:Wheat
+FoodName:Couscous & Dried Fruit Salad    ; Allergens:Wheat
+FoodName:Org Red Beans Sld w/Walnut Sce    ; Allergens:Tree Nuts
+FoodName:Organic Tossed Salad Vgn    ; Allergens:Soybeans
+FoodName:Org Lentil Salad w/Rstd Peppers    ; Allergens:Milk
+FoodName:Bulgar Tomato Salad    ; Allergens:Wheat
+FoodName:Org Zucchini/Tomato/Corn Salad    ; Allergens:
+FoodName:Organic Greek Salad    ; Allergens:Milk
+FoodName:Org Kidney Bean/Walnut/Cilantr    ; Allergens:Tree Nuts
+FoodName:Org Curried Couscs/Garbz Salad    ; Allergens:Milk, Wheat
+FoodName:Org Lemon Pasta w/Tom/Feta Sld    ; Allergens:Milk, Wheat
+FoodName:Org Caul/Olive/Celery Salad    ; Allergens:
+FoodName:Organic Carolina Salad    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Org Curried Veg Salad w/Cheese    ; Allergens:Milk
+FoodName:Organic Waldorf Salad    ; Allergens:Eggs, Tree Nuts, Soybeans
+FoodName:Organic Garden Pasta Salad    ; Allergens:Wheat, Soybeans
+FoodName:Organic Pea And Cheese Salad    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Organic Curried Rice Salad    ; Allergens:
+FoodName:Organic Cauli/Garbanzo Bean Salad    ; Allergens:Soybeans
+FoodName:Organic Spinach Salad w/ Sesame Drsg    ; Allergens:Soybeans
+FoodName:Organic Crunchy Barley Salad (Contains Gluten)    ; Allergens:
+FoodName:Org Tomato/Pasta Salad    ; Allergens:Wheat, Soybeans
+FoodName:Org Mac/Peas/Cheese Salad    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Org Red Potato Salad    ; Allergens:Eggs, Soybeans
+FoodName:Org Tomato & Feta Cheese Salad    ; Allergens:Milk
+FoodName:Org Cucumber Medley Salad    ; Allergens:Soybeans
+FoodName:Org Tricolor Pasta/Garlic Sld    ; Allergens:Wheat, Soybeans
+FoodName:Org Lentil w/Feta Salad    ; Allergens:Milk
+FoodName:Org Zucchini Combo Salad    ; Allergens:Soybeans
+FoodName:Org Zesty Garden Salad    ; Allergens:Soybeans
+FoodName:Org Mush/Celery/Gr Pepper Sld    ; Allergens:
+FoodName:Org Cauliflower & Tomato Salad    ; Allergens:Soybeans
+FoodName:Org Lentil Salad w/Rstd Peppers    ; Allergens:
+FoodName:Organic Lemony Potato Salad    ; Allergens:Eggs, Soybeans
+FoodName:Org Annie's Shitake Dress Vgn    ; Allergens:Wheat, Soybeans
+FoodName:Org Annie's Ranch Dressing    ; Allergens:Milk, Eggs
+FoodName:    ; Allergens:
+FoodName:Org Miso Ginger Vinaigr Vgn    ; Allergens:Soybeans
+FoodName:Org Olive Oil/Bals Vinegar Vgn    ; Allergens:Soybeans
+FoodName:Org Sndrd Tomato Vinaigret Vgn    ; Allergens:Soybeans
+FoodName:Org Herbs De Provence Vina Vgn    ; Allergens:Soybeans
+FoodName:Org Sesame Tamari Vinaigr Vgn    ; Allergens:Soybeans
+FoodName:Organic Tarragon Vinaig Vgn    ; Allergens:Soybeans
+FoodName:Organic Apple Cider Vinegar    ; Allergens:
+FoodName:Organic Balsamic Vinegar    ; Allergens:
+FoodName:Org Orange Cranbry  Vinaigrett    ; Allergens:Soybeans
+FoodName:Org Pomegrante Vinaigrette    ; Allergens:Soybeans
+FoodName:Org Cranberry  Vinaigrette    ; Allergens:Soybeans
+FoodName:Org Ranch Dressing Non Dairy    ; Allergens:Soybeans
+FoodName:Org Mustard Vinaigrette    ; Allergens:
+FoodName:Org Lime/Cumin Vinaigrette    ; Allergens:
+FoodName:Organic Dressing Charmoula    ; Allergens:
+FoodName:Organic Citrus Dressing    ; Allergens:
+FoodName:Organic Cumin Citrus Dressing    ; Allergens:
+FoodName:Organic Hot Pepper Citrus Dressing    ; Allergens:
+FoodName:Organic Spinach w/ Sesame Dressing    ; Allergens:Soybeans
+FoodName:Organic Red Kidney Beans    ; Allergens:
+FoodName:Organic Cherry Tomatoes    ; Allergens:
+FoodName:Organic Whole Kernel Corn    ; Allergens:
+FoodName:Organic Shredded Carrots    ; Allergens:
+FoodName:Organic Cucumbers Sliced    ; Allergens:
+FoodName:Organic Baked Tofu    ; Allergens:Soybeans
+FoodName:Organic Sliced Green Peppers    ; Allergens:
+FoodName:Organic Peas    ; Allergens:
+FoodName:Organic Garbonzo Beans    ; Allergens:
+FoodName:Organic Celery Sticks    ; Allergens:
+FoodName:Organic Cauliflower Florets    ; Allergens:
+FoodName:Organic Spinach    ; Allergens:
+FoodName:Organic Chopped Romaine    ; Allergens:
+FoodName:Organic Carrot Sticks    ; Allergens:
+FoodName:Organic Fresh Sliced Carrots    ; Allergens:
+FoodName:Organic Spring Mix    ; Allergens:
+FoodName:Organic Edamame Beans    ; Allergens:Soybeans
+FoodName:Organic Sliced Red Peppers    ; Allergens:
+FoodName:Organic Sliced Mushrooms    ; Allergens:
+FoodName:Organic Green Beans    ; Allergens:
+FoodName:Organic Zucchini Sticks    ; Allergens:
+FoodName:Organic Sliced Zucchini    ; Allergens:
+FoodName:Organic Raisins    ; Allergens:
+FoodName:Org Sunflower Seeds Shelled    ; Allergens:Peanuts
+FoodName:Org Shredded Mld Cheddar Chees    ; Allergens:
+FoodName:Organic Baby Carrots    ; Allergens:
+FoodName:Organic Sour Cream    ; Allergens:Milk
+FoodName:Organic Chopped Eggs    ; Allergens:Eggs
+FoodName:Organic Edamame Hummus    ; Allergens:Soybeans
+FoodName:Organic Teriyaki Baked Tofu    ; Allergens:Wheat, Soybeans
+FoodName:Organic Lime Zest    ; Allergens:
+FoodName:Organic Lemon Zest    ; Allergens:
+FoodName:Organic Black Beans    ; Allergens:
+FoodName:Organic Plain Red Quinoa    ; Allergens:
+FoodName:Organic Plain Black Quinoa    ; Allergens:
+FoodName:Organic Plain Rye Berries    ; Allergens:
+FoodName:Organic Hulless Barley    ; Allergens:
+FoodName:Org Sunflower Seeds Shelled    ; Allergens:
+FoodName:Organic Medium Coarse Bulgur    ; Allergens:
+FoodName:HB New York Crumb Cake    ; Allergens:Milk, Eggs, Wheat
+FoodName:BBQ Chicken    ; Allergens:
+FoodName:Herb Roasted Chicken    ; Allergens:Soybeans
+FoodName:Chicken Pot Pie With Peas    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Fried Chicken    ; Allergens:Wheat
+FoodName:Lemon Chicken    ; Allergens:Fish, Soybeans
+FoodName:Chicken Buffalo Wings    ; Allergens:Wheat, Soybeans
+FoodName:Teriyaki Chicken    ; Allergens:Soybeans
+FoodName:Chicken Cacciatore    ; Allergens:Soybeans
+FoodName:Chicken Coq Au Vin    ; Allergens:Wheat
+FoodName:Teriyaki Chicken Thighs    ; Allergens:Soybeans
+FoodName:Chicken Breast Patty    ; Allergens:Wheat, Soybeans
+FoodName:Spicy Garlic Chicken with Basil    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Curried Honey Chicken Thighs    ; Allergens:
+FoodName:Chicken Stir Fry w/Oriental Sce    ; Allergens:Soybeans
+FoodName:Lemon Rosemary Chicken GF    ; Allergens:Fish, Soybeans
+FoodName:Chicken Adobo    ; Allergens:Soybeans
+FoodName:Curried Honey Chicken    ; Allergens:
+FoodName:Malai Murgh Roasted Chicken    ; Allergens:Milk
+FoodName:Hot & Spicy Chicken    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Wings (6 Piece) PB    ; Allergens:
+FoodName:Lemon Rosemary Chicken Brst    ; Allergens:Fish, Soybeans
+FoodName:Parmesan Chicken Breast    ; Allergens:Milk
+FoodName:Sour Cream Chicken    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Honey Fried Madras Chicken    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Hot & Spicy Chicken Wings    ; Allergens:Wheat, Soybeans
+FoodName:Lemon Rosemary Chicken Brst    ; Allergens:Fish, Soybeans
+FoodName:Cajun Chicken    ; Allergens:Wheat, Soybeans
+FoodName:Herb Baked Chicken    ; Allergens:Milk
+FoodName:Jamaican Jerk Chicken Thighs    ; Allergens:
+FoodName:Chicken Wings 12 Piece PB    ; Allergens:
+FoodName:MYO Turkey Lettuce Cups    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Mole'    ; Allergens:Wheat, Soybeans
+FoodName:Pistachio Mustard Crusted Chicken    ; Allergens:Tree Nuts, Wheat
+FoodName:Mandarin Orange Chicken    ; Allergens:Eggs
+FoodName:Chicken Strips    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Honey Curried Chicken Brst    ; Allergens:
+FoodName:Chicken Buffalo Wings    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Marinated Chicken Breast    ; Allergens:
+FoodName:Chicken Adobo    ; Allergens:
+FoodName:BBQ Chicken Breast    ; Allergens:Soybeans
+FoodName:Lemongrass Rotisserie Chicken    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Chicken Wing Bar    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Butter Chicken    ; Allergens:Milk
+FoodName:Chicken Chesterfield    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:Egyptian Chicken    ; Allergens:Tree Nuts, Soybeans
+FoodName:Chicken Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Wing Bar    ; Allergens:Milk, Soybeans
+FoodName:Chicken Spicy Szechuan    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Wings (6 Piece)    ; Allergens:
+FoodName:Wings (12 Piece)    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Santa Fe Chicken    ; Allergens:Wheat, Soybeans
+FoodName:Chicken in Peanut Tomato Sauce    ; Allergens:Milk, Peanuts
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Monterey Chicken Breast    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chicken Strips    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Sweet & Sour Chicken Thighs    ; Allergens:Soybeans
+FoodName:Mahogany Chicken Breast    ; Allergens:Soybeans
+FoodName:Sweet & Sour Chicken Brst    ; Allergens:Soybeans
+FoodName:    ; Allergens:
+FoodName:Apricot Glazed Chicken Brst    ; Allergens:Soybeans
+FoodName:Garlic Rosemary Chicken Legs    ; Allergens:Wheat
+FoodName:Cranberry BBQ Chicken Brst    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Orange Chicken    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Orange Chicken w/Cafe Talesai    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Gril ChickenBrst w/Chipotle Sce    ; Allergens:Soybeans
+FoodName:Chicken Burrito Filling    ; Allergens:
+FoodName:Cranberry BBQ Chicken Quarters    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Chicken Plate LN FH    ; Allergens:
+FoodName:Roasted Chicken Quarters    ; Allergens:
+FoodName:Jerked Chicken Breast    ; Allergens:
+FoodName:Chicken Breast Supreme    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Salsa Chicken Breast    ; Allergens:
+FoodName:Chicken Thigh w/Must Creole    ; Allergens:
+FoodName:Chicken Provencal Quarters    ; Allergens:Soybeans
+FoodName:Kao Soi Chicken    ; Allergens:
+FoodName:Chicken Rice w/ Alm/Peppers    ; Allergens:Tree Nuts
+FoodName:Chicken Breast Picatta    ; Allergens:
+FoodName:Greek Rotisserie Chicken    ; Allergens:
+FoodName:BBQ Chicken w/ Blueberry Sauce    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Rosemary Rotisserie Chicken    ; Allergens:
+FoodName:Herbed Rotisserie Chicken    ; Allergens:
+FoodName:Mediterranean Spiced Chicken    ; Allergens:
+FoodName:Thai Chicken Curry    ; Allergens:Fish, Wheat
+FoodName:Chicken Brst/Rstd Garlic Sauce    ; Allergens:Eggs, Soybeans
+FoodName:Chicken Brst w/Pesto&Jack    ; Allergens:Milk
+FoodName:Chicken Brst/Apple Cran Relish    ; Allergens:
+FoodName:Chicken Brst w/Peanut Sauce    ; Allergens:Fish, Peanuts, Wheat
+FoodName:BBQ Rubbed Chicken    ; Allergens:
+FoodName:Chicken Brst w/Tomato&Horserad    ; Allergens:
+FoodName:Chicken Gallito    ; Allergens:
+FoodName:BBQ Chicken Breast    ; Allergens:
+FoodName:Rstd Chicken/Lemon Olive Sauce    ; Allergens:
+FoodName:Roasted Chicken With Pears    ; Allergens:
+FoodName:Stuffed Chicken Breast    ; Allergens:Milk, Eggs
+FoodName:Chicken Pico de Gallo    ; Allergens:Soybeans
+FoodName:Pan Roasted Rosemary Chicken    ; Allergens:
+FoodName:Caribbean Lime Chicken    ; Allergens:
+FoodName:Chicken&Chipotle    ; Allergens:
+FoodName:Chicken in Oregano Sauce    ; Allergens:
+FoodName:Chicken Apritada    ; Allergens:Wheat
+FoodName:Tandoori Chicken Legs    ; Allergens:Milk
+FoodName:Pomegranate Chicken Thighs    ; Allergens:
+FoodName:Portabello Chicken Thighs    ; Allergens:Wheat
+FoodName:Chicken Strips w/o Fries    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Strips w/Fries    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chicken Nuggets    ; Allergens:Wheat
+FoodName:General Tso's Chicken    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Chicken Jerusalem    ; Allergens:Milk, Wheat
+FoodName:Pan Braised Chicken Brst    ; Allergens:Milk
+FoodName:Chicken Tagine    ; Allergens:
+FoodName:Chicken Mesquite    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Smothered Chicken    ; Allergens:Wheat
+FoodName:Buttermilk Oven Fried Chicken    ; Allergens:Milk, Wheat
+FoodName:Robert's Chicken Pot Pie    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Adobo    ; Allergens:Soybeans
+FoodName:Stuffed Tasso Cornbrd Chicken    ; Allergens:Milk, Eggs, Wheat
+FoodName:Chicken Curry Lahori    ; Allergens:Milk
+FoodName:Stir Fry Chicken w/Lemongrass    ; Allergens:Fish, Wheat
+FoodName:Grilled 5 Spice Chicken    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Katsu Catering    ; Allergens:Eggs, Wheat
+FoodName:Chicken Katsu    ; Allergens:Eggs, Wheat
+FoodName:Orange Chicken    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Ginger Chicken    ; Allergens:Fish, Wheat
+FoodName:    ; Allergens:
+FoodName:Baked Chicken Tarragon/Chives    ; Allergens:Milk
+FoodName:Chicken with Tarragon/Chives    ; Allergens:Milk
+FoodName:Chicken Pot Pie    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Thai Chicken Supreme    ; Allergens:Fish, Peanuts, Soybeans
+FoodName:Tikki Masala Chicken    ; Allergens:Milk
+FoodName:Pad Thai Chicken    ; Allergens:Eggs, Fish
+FoodName:Thai Chicken Supreme    ; Allergens:Fish, Peanuts, Soybeans
+FoodName:Chicken Provencal    ; Allergens:
+FoodName:Greek Chicken    ; Allergens:
+FoodName:Chicken Buffalo Wings    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Fried Chicken Masala    ; Allergens:Milk, Wheat
+FoodName:Lemon Chicken    ; Allergens:Soybeans
+FoodName:Spicy Sweet Chicken Wings    ; Allergens:
+FoodName:Herb Stuffed Chicken    ; Allergens:
+FoodName:Hoisin Rotisserie Chicken    ; Allergens:Wheat, Soybeans
+FoodName:Braised Chicken w/Garam Masala    ; Allergens:Milk
+FoodName:Chicken Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Sweet and Sour Chicken    ; Allergens:Soybeans
+FoodName:Bangkok BBQ Chicken Mai Pham    ; Allergens:Wheat, Soybeans
+FoodName:Grilled Chicken Quesadilla    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Cool Thai Chicken    ; Allergens:Fish, Crustacean Shellfish
+FoodName:    ; Allergens:
+FoodName:Cool Thai Chicken    ; Allergens:Fish, Crustacean Shellfish
+FoodName:Cool Thai Beef    ; Allergens:Fish, Crustacean Shellfish
+FoodName:Cool Thai Beef    ; Allergens:Fish, Crustacean Shellfish
+FoodName:Ground Turkey    ; Allergens:
+FoodName:Chicken Burrito Filling    ; Allergens:Soybeans
+FoodName:Chicken Curry with Sweet Potato    ; Allergens:Fish, Wheat
+FoodName:Java Chicken Curry *CONTAINS PEANUT BUTTER*    ; Allergens:Milk, Peanuts, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:WW Chicken and Garlic Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Artichoke Casserole    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Turkey Corn Dogs    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Chicken Chow Mein    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Sweet and Sour Chicken    ; Allergens:Soybeans
+FoodName:Grilled Chicken Quesadilla    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Fajitas w/Bell Peppers    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chicken Stir Fry    ; Allergens:Soybeans
+FoodName:Chicken Risotto    ; Allergens:Milk, Soybeans
+FoodName:Mai'sThai Grn Chicken Curry    ; Allergens:Milk, Fish, Crustacean Shellfish, Soybeans
+FoodName:Chicken Fried Rice    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Chicken Fuselli w/Basil    ; Allergens:Milk, Wheat
+FoodName:Chicken & Black Bean Wrap    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Curry    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Popcorn Chicken    ; Allergens:Milk, Eggs, Wheat
+FoodName:Chicken Pozole    ; Allergens:
+FoodName:Chicken Fett w/Sun Dried Tom    ; Allergens:Milk, Wheat
+FoodName:Bastilla Chicken    ; Allergens:Milk, Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chicken Pancit    ; Allergens:Soybeans
+FoodName:Chicken Rice Bowl    ; Allergens:Wheat, Soybeans
+FoodName:Mai's Chicken Biryani    ; Allergens:
+FoodName:Chicken Strips    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Nacho Pasta    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Enchilada Casserole    ; Allergens:Milk
+FoodName:Salsa Chicken    ; Allergens:Soybeans
+FoodName:Grilled Chicken Quesadilla    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chicken and Garlic Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chicken Burrito Meat    ; Allergens:
+FoodName:Chicken Taco Mix    ; Allergens:Wheat
+FoodName:Marinated Chicken    ; Allergens:Soybeans
+FoodName:Chicken In Black Bean Sauce    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chicken Rice Bowl    ; Allergens:Wheat, Soybeans
+FoodName:Late Nite Chicken Rice Bowl    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Kung Pao Chicken    ; Allergens:Milk, Eggs, Peanuts, Wheat, Soybeans
+FoodName:Clay Pot Chicken    ; Allergens:Fish, Wheat
+FoodName:Chicken Biryani    ; Allergens:Milk
+FoodName:Chicken Enchiladas    ; Allergens:Milk, Wheat
+FoodName:    ; Allergens:
+FoodName:Chicken Garlic Stir Fry    ; Allergens:
+FoodName:Mandarin Spiced Chicken    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Chicken Taco    ; Allergens:
+FoodName:Marinated Chicken    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Stir Fry With Mushroom Sauce    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Burrito    ; Allergens:Wheat, Soybeans
+FoodName:Chicken Broccoli Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Sesame Chicken Wings    ; Allergens:Soybeans
+FoodName:Spiced Chicken Stir Fry    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chicken Tetrazzini    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Crispy Chicken Taco    ; Allergens:Milk, Eggs, Wheat
+FoodName:Chicken Chow Fun    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Asian Chicken Bowl    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Chicken Mami Noodle Bar    ; Allergens:Eggs, Soybeans
+FoodName:Orange Chicken Rice Bowl    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Foothill's Sichuan Chix Lings    ; Allergens:Wheat, Soybeans
+FoodName:Chicken w/Golden Rice    ; Allergens:Eggs
+FoodName:Vegetable Biryani    ; Allergens:
+FoodName:Chicken A La King    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Herman's Nacho Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Fish Fillet Fricassee    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Tuna Noodle Casserole    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Lemon Baked Snapper    ; Allergens:Fish, Soybeans
+FoodName:Grilled Red Snapper    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Grilled Seasonal Fish    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Cajun Pollack    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Fried Red Snapper    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Fried Fish    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Cheese Tuna and Rotini    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Tuna Noodle Casserole    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Lemon Dill Baked Snapper GF    ; Allergens:Fish, Soybeans
+FoodName:Fish Nuggets    ; Allergens:Fish
+FoodName:Baked Mahi Mahi    ; Allergens:Fish, Soybeans
+FoodName:    ; Allergens:
+FoodName:Spicy Baked Snapper    ; Allergens:Fish, Soybeans
+FoodName:Grilled Cajun Catfish    ; Allergens:Fish
+FoodName:Cajun Snapper    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Fish Sticks    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Grilled Filet Sole    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Mahi Mahi w/Papaya Salsa    ; Allergens:Fish
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Pollock w/Broccoli Sauce    ; Allergens:Milk, Fish
+FoodName:    ; Allergens:
+FoodName:Lemon Baked Fish    ; Allergens:Fish, Soybeans
+FoodName:MSC Gr Onions and Ginger Fish    ; Allergens:Fish, Soybeans
+FoodName:Ginger Baked Catfish    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Fish Taco    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:MSC Vera Cruz Fish    ; Allergens:Fish, Soybeans
+FoodName:Coconut Fish Curry Amok Trei    ; Allergens:Fish, Wheat
+FoodName:Bombay Style Snapper    ; Allergens:Fish
+FoodName:Fried Catfish    ; Allergens:Fish, Wheat
+FoodName:Grilled Salmon    ; Allergens:Fish
+FoodName:    ; Allergens:
+FoodName:Caribbean Catfish    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Caribbean Red Snapper    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Ginger Steamed Fish    ; Allergens:Fish, Soybeans
+FoodName:Grilled Southwest Salmon    ; Allergens:
+FoodName:Caribbean Pollack    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Tilipia Meunieri    ; Allergens:Milk, Fish, Wheat
+FoodName:Pan Fried Snapper    ; Allergens:Fish
+FoodName:Miso Glazed Tilapia    ; Allergens:Fish, Soybeans
+FoodName:Fish Au Gratin    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Mustard Baked Pollock    ; Allergens:Fish
+FoodName:Olive Crumb Baked Fish    ; Allergens:Fish, Wheat
+FoodName:Baked Cod    ; Allergens:Soybeans
+FoodName:Seared Salmon w/Pepper Crust    ; Allergens:Fish, Soybeans
+FoodName:Steamed Snapper w/Lemon Butter    ; Allergens:Milk, Fish
+FoodName:    ; Allergens:
+FoodName:Battered Pollack Wedge    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Moroccan Salmon Filet    ; Allergens:Fish
+FoodName:Craw Fish Etouffe    ; Allergens:Milk, Crustacean Shellfish, Wheat
+FoodName:Salmon Provencal    ; Allergens:
+FoodName:Portuguese Cod Fritters    ; Allergens:Eggs, Fish
+FoodName:    ; Allergens:
+FoodName:Salmon w/Black Bean Sauce    ; Allergens:Fish, Soybeans
+FoodName:Tuna Stuffed Tomatoes    ; Allergens:Eggs, Fish, Wheat, Soybeans
+FoodName:Lemon Parmesan Fish    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:Roasted BBQ Salmon    ; Allergens:Fish
+FoodName:Steamed Basa w/Fresh Ginger GF    ; Allergens:Fish, Soybeans
+FoodName:Blackened Catfish    ; Allergens:Fish
+FoodName:Honey Glazed Miso Salmon    ; Allergens:Fish, Soybeans
+FoodName:Lemon Basa    ; Allergens:Fish, Soybeans
+FoodName:Stuffed Sole w/Shrimp/Crab    ; Allergens:Milk, Eggs, Fish, Crustacean Shellfish, Wheat, Soybeans
+FoodName:Chorizo & Shrimp Quesadillas    ; Allergens:Milk, Crustacean Shellfish, Wheat, Soybeans
+FoodName:Grilled Mahi Mahi    ; Allergens:Fish, Soybeans
+FoodName:Triple Citrus Dilled Catfish    ; Allergens:Fish
+FoodName:Sauteed Sole w/Ginger/Cilantro    ; Allergens:Fish, Wheat
+FoodName:Macadamia Crusted Mahi Mahi    ; Allergens:Eggs, Fish, Tree Nuts, Wheat, Soybeans
+FoodName:LOX    ; Allergens:Fish
+FoodName:Roasted Salmon w/Bacon Maple    ; Allergens:Fish
+FoodName:Honey Star Anise Salmon    ; Allergens:Fish, Soybeans
+FoodName:Lemon Smk Salmon Fettuccini    ; Allergens:Milk, Wheat
+FoodName:Sesame Crusted Salmon    ; Allergens:Milk, Fish, Soybeans
+FoodName:CATFISH IN CLAYPOT MAI    ; Allergens:Fish, Wheat
+FoodName:Penne  with Creamy Caper Tuna Sauce    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Goan Style Mahi Mahi Curry    ; Allergens:Fish
+FoodName:Korean Roasted FIsh    ; Allergens:Wheat
+FoodName:Fried Tilapia Fish    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Cinnamon Coffee Rubbed Tilapia    ; Allergens:Fish
+FoodName:Fish Tacos    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Grilled Fish w/West African Spices    ; Allergens:Fish
+FoodName:Grilled Fish Taco    ; Allergens:Fish
+FoodName:Miso Glazed Tilapia    ; Allergens:Fish, Soybeans
+FoodName:Grilled Salmon Fillet    ; Allergens:
+FoodName:Shrimp a La Carte LN FH    ; Allergens:Crustacean Shellfish
+FoodName:Fish & Chips Late Night    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Fried Catfish    ; Allergens:Fish, Wheat
+FoodName:Shrimp Fajita Catering    ; Allergens:Milk, Crustacean Shellfish, Wheat, Soybeans
+FoodName:Fish & Chips Catering    ; Allergens:Fish, Wheat
+FoodName:St

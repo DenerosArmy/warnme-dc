@@ -26,7 +26,11 @@ def menu_scrape(x,y,foodn):
 		soup = BeautifulSoup(data)
 		food_name = "FoodName:" + list(iter(soup.form.div))[0].split(";")[4].rstrip().__str__() 
 		food_name += "   "
-		allergens = "Allergens:" + ((list(list(soup.body)[-6])[-4].getText()).split(";"))[-1].__str__()
+		try: 
+			allergens = "Allergens:" + ((list(list(soup.body)[-6])[-4].getText()).split(";"))[-1].__str__() 
+		except IndexError as e:
+			allergens = "Allergens:" 
+			
 		text = (food_name + " ; " + allergens + "\n") 
 		working_file.write(text) 
 x = int(sys.argv[1])
