@@ -36,6 +36,13 @@ def sorted_foods(date, location, meal):
         return {"main_foods": o[0].foods.order_by("-rating"),
                 "other_foods": []}
 
+def has_rated(user, food):
+    """Returns if a user has voted on a certain food recently."""
+    lastvotetime = UserRating.objects.filter(user=user, food=food).order_by("-id")[0].time
+    timediff = datetime.datetime.now() - lastvotetime
+    if abs(timediff.days) > 1: return False
+    return True
+
 @login_required
 def rate(request, food_key, rating):
     """Rate a given food (with key).
@@ -48,8 +55,11 @@ def rate(request, food_key, rating):
     """
     try:
         rating = int(rating)
-        if rating not in (0, 1): return HttpResponse("Error: bad rating key")
+        if rating not in (0, 1):
+            return HttpResponse("Error: bad rating key")
         food = Food.objects.get(id=food_key)
+        if has_rated(request.user, food): 
+            return HttpResponse("You have already voted on this recently. Please try again.")
         votecount = UserRating.objects.filter(user=request.user).count()+0.1
         if votecount < 1.1: votecount = 1.1
         weight = log10(votecount)
@@ -74,10 +84,40 @@ def food_profile(request,num):
     return render_to_response('food_pf.html', RequestContext(request,{
                 'id': num}))
 
+def filter_blacklists(user, date, location, meal):
+    """Return a dict of main_foods and other_foods for a given offering"""
+    offerings = Offering.objects.filter(location=str(location), date=date,
+                                        meal=str(meal))[0].foods.order_by("-rating")
+    if len(offerings) == 0: return {}
+    else:
+        main_foods, blacklisted_foods = [], []
+        for food in offerings:
+            blacklisted = False
+            for tag in user.blacklisted_tags:
+                if str(food) in str(tag):
+                    blacklisted_foods.append(food)
+                    blacklisted = True
+                    break
+            if not blacklisted: main_foods.append(food)
+        return {"main_foods": main_foods,
+                "other_foods": blacklisted_foods}
+
 @login_required
 def user_profile(request):
-    return render_to_response('user.html', RequestContext(request,{
-                'id': request.user.id}))
+    """Data format = {location: {'B':{'main_foods':<main>, 'other_foods':<other>}, }}"""
+    data = {}
+    date = datetime.date.today()
+    for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
+        data[location] = {}
+        if date.isoweekday() != 6 and date.isoweekday() != 7:
+            data[location]['B'] = filter_blacklists(request.user, date, location, 'B')
+        data[location]['L'] = filter_blacklists(request.user, date, location, 'L')
+        data[location]['D'] = filter_blacklists(request.user, date, location, 'D')
+
+    return render_to_response('user.html',
+                              RequestContext(request,{"id":request.user.id,
+                                                      "data":data,
+                                                      "def_loc":request.user.default_location}))
 
 def login_user(request):
     if request.user.is_authenticated():
