@@ -84,10 +84,40 @@ def food_profile(request,num):
     return render_to_response('food_pf.html', RequestContext(request,{
                 'id': num}))
 
+def filter_blacklists(user, date, location, meal):
+    """Return a dict of main_foods and other_foods for a given offering"""
+    offerings = Offering.objects.filter(location=str(location), date=date,
+                                        meal=str(meal))[0].foods.order_by("-rating")
+    if len(offerings) == 0: return {}
+    else:
+        main_foods, blacklisted_foods = [], []
+        for food in offerings:
+            blacklisted = False
+            for tag in user.blacklisted_tags:
+                if str(food) in str(tag):
+                    blacklisted_foods.append(food)
+                    blacklisted = True
+                    break
+            if not blacklisted: main_foods.append(food)
+        return {"main_foods": main_foods,
+                "other_foods": blacklisted_foods}
+
 @login_required
 def user_profile(request):
-    return render_to_response('user.html', RequestContext(request,{
-                'id': request.user.id}))
+    """Data format = {location: {'B':{'main_foods':<main>, 'other_foods':<other>}, }}"""
+    data = {}
+    date = datetime.date.today()
+    for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
+        data[location] = {}
+        if date.isoweekday() != 6 and date.isoweekday() != 7:
+            data[location]['B'] = filter_blacklists(request.user, date, location, 'B')
+        data[location]['L'] = filter_blacklists(request.user, date, location, 'L')
+        data[location]['D'] = filter_blacklists(request.user, date, location, 'D')
+
+    return render_to_response('user.html',
+                              RequestContext(request,{"id":request.user.id,
+                                                      "data":data,
+                                                      "def_loc":request.user.default_location}))
 
 def login_user(request):
     if request.user.is_authenticated():
