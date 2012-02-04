@@ -1,19 +1,71 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en">
-  <head>
-      <title>
-          {% block title %}
-          {% endblock %}
-      </title>
-  </head>
-  <body>
-    <h1>This is the body</h1>
-    {% block content %}{% endblock %}
+    <head>
+        <title>
+            {% block title %}
+            {% endblock %}
+        </title>
 
-    {% block footer %}
-    <hr>
-    <p>This is the footer.</p>
-    {% endblock %}
-  </body>
+        <style type="text/css">
+            body {
+                width: 100%;
+                background-color: #D4D3E0;
+                color: #FFFFFF:
+                vertical-align: baseline; }
+            .center {
+                margin-left: auto;
+                margin-right:auto;
+                width: 70%; }
+            #wrap {
+                background-color: #343450;
+                color: #FFFFFF;
+                width: 100%;
+                }
+            #nav {
+                width: 100%;
+                float: left;
+                padding: 0;
+                margin: 0 0 1em 0;
+                list-style: none;
+                background-color: #141420;
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc; }
+            #nav li {
+                float: left; }
+            #nav li a {
+                padding: 5px 15px;
+                display: block;
+                text-decoration: none;
+                font-weight: bold;
+                color: #069;
+                border-right: 1px solid #ccc; }
+            #nav li a:hover {
+                color #c00;
+                background-color: #fff; }
+        </style>
+    </head>
+
+
+    <div class="center">
+        <div id="title">
+            <h1>WARN ME DC</h1>
+        </div>
+        <ul id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Rate</a></li>
+        </ul>
+        <div id="wrap">
+            <div id="content">
+                <h1>This is the body</h1>
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+        <div id="footer">
+            <hr>
+            <p>This is the footer.</p>
+        </div>
+    </div>
 </html>
-
