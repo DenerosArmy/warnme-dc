@@ -2,8 +2,8 @@ from django.conf.urls.defaults import patterns, include, url
 from main.views import home, food, food_profile, user_profile
 
 # Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = patterns('',
         ('^$', home),                       # home page/menu
