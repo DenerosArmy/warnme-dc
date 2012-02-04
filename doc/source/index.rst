@@ -11,6 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   main_models
+   main_views
+   main_tests
+
 Indices and tables
 ==================
 
