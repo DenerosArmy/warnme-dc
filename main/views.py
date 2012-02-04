@@ -1,7 +1,10 @@
 from django.shortcuts import render_to_response
+from main.models import *
 
 def home(request):
-    return render_to_response('home.html', {})
+    data = {'FH': {'B': { "main_foods": Food.objects.all(),
+                          "other_foods": Food.objects.all() }}}
+    return render_to_response('home.html', {"data": data})
 
 def food(request):
     return render_to_response('food.html', {})

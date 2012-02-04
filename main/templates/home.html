@@ -1,7 +1,24 @@
 {% extends "base.html" %}
+{% load filters %}
 
 {% block title %}HOME{% endblock %}
 
 {% block content %}
-<h2>OMG WEBSITE CONTENT</h2>
+<h2>Menu</h2>
+
+{% for location, meals_foods in data.items %}
+<h3> Location: {{ location|location_name }} </h3>
+{% for meal, foods in meals_foods.items %}
+<h4> {{ meal|meal_name }} </h4>
+<h5> Main foods </h5>
+{% for food in foods.main_foods %}
+<p class="{{ food|rating_class }}"> Food offered: {{ food.name }}, rating {{ food.rating }} </p>
+{% endfor %}
+<h5> Other foods </h5>
+{% for food in foods.other_foods %}
+<p> Food offered: {{ food.name }}, rating {{ food.rating }} </p>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+
 {% endblock %}
