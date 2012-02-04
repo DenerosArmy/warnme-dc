@@ -10,17 +10,47 @@ from django import forms
 import datetime
 from math import log10
 from main.models import *
+from texting import *
+
+def genwarn():
+
+    date = dateTime.date.today()
+    DEFAULT_NUMBER = "5106043735" 
+
+    def warn_check(user):
+        location = user.default_location
+        filteredLunch = filter_blacklist(user,date,location, "L" ) 
+        filteredDinner = filter_blacklist(user,date,location, "D") 
+        warn_message = "" 
+        if len(filteredLunch['main_foods']) < len(filteredLunch['other_foods']):            
+            warn_message += generate_warn_message(user,"L",filteredLunch) + " \n  " 
+        if len(filteredDinner['main_foods'] < len(filteredDinner['other_foods']): 
+            warn_message += generate_warn_messafe(user,"D",filteredDinner) 
+        if len(warn_message) >= 0: 
+            text(user.number, warn_message) 
+        
+    def generate_warn_message(user,meal,data):
+        sumi = 0 
+        percentage = float(len(filteredLunch['other_foods']))/((len(filteredLunch['main_foods'] + len(filteredLunch['other_foods'])))) * 100 
+        for i in filteredLunch['main_foods']: 
+            sumi += i.get_rating() 
+        average = sumi/len(filteredLunch['main_foods'])  
+        message = "{0} percent of todays {1} seems to be on your blacklist. The rest of the food has an average rating of {2}. Please making according plans.".format(percentage, meal, average)  
+    
+    for u in user.profiles.objects.all(): 
+	warn_check(u)
 
 def home(request):
     data = {}
     date = datetime.date.today()
+    
     try:
         user_prof = UserProfile.objects.get(user=request.user)
     except ObjectDoesNotExist:
         user_prof = None
     except TypeError:
         user_prof = None
-
+        
     if user_prof != None:
         for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
             data[location] = {}
@@ -35,6 +65,7 @@ def home(request):
                 data[location]['B'] = sorted_foods(date, location, 'B')
             data[location]['L'] = sorted_foods(date, location, 'L')
             data[location]['D'] = sorted_foods(date, location, 'D')
+
     return render_to_response('home.html',
                               RequestContext(request,{"data":data}))
 
@@ -99,7 +130,7 @@ def rate(request, food_key, rating):
         if votecount < 1.1: votecount = 1.1
         weight = log10(votecount)
         if weight > 1.5: weight = 1.5
-        rating = ((-1)**rating)*weight
+        rating = -((-1)**rating)*weight
         u = UserRating(user=request.user,
                        food=food,
                        rating=rating)
@@ -110,7 +141,7 @@ def rate(request, food_key, rating):
         assert False
     else:
         u.save()
-        return HttpResponse("Success")
+        return home(request)
 
 def food(request):
     return render_to_response('food.html', RequestContext(request, {}))
@@ -183,3 +214,4 @@ def register_user(request):
         'form': form,
     }))
 
+genwarn()
