@@ -725,4 +725,435 @@ FoodName:Watermelon/Feta w/Basil Salad    ; Allergens:Milk
 FoodName:QC Spinach Salad    ; Allergens:Milk, Soybeans
 FoodName:Foothills Chinese Chix Salad    ; Allergens:Tree Nuts, Wheat, Soybeans
 FoodName:Foothills Fried Chix Salad    ; Allergens:Milk, Eggs, Wheat, Soybeans
-FoodName:LBL Tuesday Taco Salad/FF Dressin
+FoodName:LBL Tuesday Taco Salad/FF Dressing    ; Allergens:Milk, Eggs
+FoodName:Large Egg Salad XRDS LN    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Large Chicken Salad XRDS LN    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Large Tuna Salad XRDS LN    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Crispy Chix Salad    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Ranch Dressing    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Italian Dressing    ; Allergens:Milk, Soybeans
+FoodName:Blue Cheese Dressing    ; Allergens:Milk, Soybeans
+FoodName:Thousand Island Dressing    ; Allergens:Eggs, Soybeans
+FoodName:Shirley's Vinaigrett Dress Vgn    ; Allergens:
+FoodName:Poppyseed Dressing V    ; Allergens:
+FoodName:Cilantro Dressing Vgn    ; Allergens:
+FoodName:Tarragon Dressing Vgn    ; Allergens:
+FoodName:Vinagrette Vgn    ; Allergens:
+FoodName:Greek Salad Dressing    ; Allergens:
+FoodName:Michelle's Vinaigrette Vgn    ; Allergens:
+FoodName:Sesame Salad Dressing Vgn    ; Allergens:Soybeans
+FoodName:Sesame Vinaigrette Vgn    ; Allergens:Soybeans
+FoodName:Low Fat Buttermilk Dressing V    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:Balsamic Vinegar Dresing Vgn    ; Allergens:
+FoodName:Caesar Dressing    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Papaya & Poppyseed Dressing V    ; Allergens:
+FoodName:Walnut Vinaigrette Vgn    ; Allergens:Tree Nuts
+FoodName:Spicy Asian Dressing Vgn    ; Allergens:Soybeans
+FoodName:Bacon Dressing    ; Allergens:
+FoodName:Onion & Egg Vinaigrette Dress    ; Allergens:Eggs
+FoodName:Lime Cilantro Vinaigrett Vgn    ; Allergens:Soybeans
+FoodName:Bouncy Noodle Sld Dressing Vgn    ; Allergens:Soybeans
+FoodName:Non Fat Ranch Dressing    ; Allergens:Milk, Eggs
+FoodName:Chunky Blue Cheese Dressing V    ; Allergens:Milk, Soybeans
+FoodName:Blue Chese Dressing PC    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Honey Lime Dressing V    ; Allergens:
+FoodName:Oriental Dressing    ; Allergens:Soybeans
+FoodName:Curry Dressing    ; Allergens:Milk
+FoodName:    ; Allergens:
+FoodName:Soy Peanut Dressing    ; Allergens:Peanuts, Soybeans
+FoodName:Caesar Dressing    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:Fresh Dill Dressing Vgn    ; Allergens:
+FoodName:Red Pepper Pesto Dressing V    ; Allergens:Milk, Soybeans
+FoodName:Basil Pesto Dressing V    ; Allergens:Milk
+FoodName:Orange Vinaigrette Vgn    ; Allergens:
+FoodName:Russian Dressing    ; Allergens:Eggs, Fish, Soybeans
+FoodName:Pesto Vinaigrette Vgn    ; Allergens:
+FoodName:Roasted Garlic Vinaigrette V    ; Allergens:Milk, Soybeans
+FoodName:Crmy Avocado Garlic Dressing V    ; Allergens:Milk, Soybeans
+FoodName:Bacon Maple Vinaigrette    ; Allergens:
+FoodName:Pomegranate Vinaigrette    ; Allergens:
+FoodName:Annie's Shitake Dressing    ; Allergens:Wheat, Soybeans
+FoodName:Annie's Ranch Dressing    ; Allergens:Milk, Eggs
+FoodName:Annie's Goddess Dressing    ; Allergens:Soybeans
+FoodName:Walnut Vinaigrette Dressing    ; Allergens:Tree Nuts
+FoodName:LBL Taco Salad Dressing    ; Allergens:Milk, Eggs, Soybeans
+FoodName:Dijon Vinaigrette    ; Allergens:
+FoodName:Chipotle Ranch Dressing    ; Allergens:Milk, Soybeans
+FoodName:Meyer Lemon Vinaigrette V    ; Allergens:
+FoodName:Zesty Miso Dressing    ; Allergens:
+FoodName:Blueberry Vinaigrette    ; Allergens:
+FoodName:Ranch  Dressing    ; Allergens:Milk, Soybeans
+FoodName:FF Italian  Dressing    ; Allergens:Milk, Soybeans
+FoodName:Thousand Island  Dressing    ; Allergens:Soybeans
+FoodName:GF Organic Boiled Eggs    ; Allergens:Eggs
+FoodName:GF Cheese Omelet    ; Allergens:Milk, Eggs
+FoodName:Fried Eggs    ; Allergens:Eggs, Soybeans
+FoodName:GF Scrambled Eggs    ; Allergens:Eggs
+FoodName:Poached Eggs    ; Allergens:Eggs
+FoodName:Mushroom Omelet    ; Allergens:Eggs
+FoodName:Bacon Scrambled Eggs    ; Allergens:Eggs
+FoodName:Scrambled Eggs w/Mushrooms    ; Allergens:Eggs
+FoodName:Spanish Omelet    ; Allergens:Eggs
+FoodName:Ham Omelet    ; Allergens:Eggs
+FoodName:Denver Omelet    ; Allergens:Eggs
+FoodName:Cheese Scrambled Eggs    ; Allergens:Milk, Eggs
+FoodName:Green Chili & Cheese Omelet    ; Allergens:Milk, Eggs
+FoodName:Scrambled Eggs w/Ham    ; Allergens:Eggs
+FoodName:Plain Omelet    ; Allergens:Eggs
+FoodName:Soft Cooked Eggs    ; Allergens:Eggs
+FoodName:Simply Egg    ; Allergens:Eggs
+FoodName:Bacon Omelet    ; Allergens:Milk, Eggs
+FoodName:Ham and Cheese Omelet    ; Allergens:Milk, Eggs
+FoodName:Spinach Omelet    ; Allergens:Eggs
+FoodName:Mushroom/Cheese Omelet    ; Allergens:Milk, Eggs
+FoodName:Wild Scrambled Eggs    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Chix/Broccoli Oven Omelet    ; Allergens:Milk, Eggs
+FoodName:One Fried Egg    ; Allergens:Milk, Eggs
+FoodName:Cheesy Country  Casserole    ; Allergens:Milk, Eggs
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Fried Egg    ; Allergens:Eggs, Soybeans
+FoodName:    ; Allergens:
+FoodName:Chorizo Scrambled Eggs    ; Allergens:Eggs
+FoodName:Chorizo Omelet    ; Allergens:Eggs
+FoodName:Chive Scrambed Eggs    ; Allergens:Eggs
+FoodName:Tarragon Scrambled Eggs    ; Allergens:Milk, Eggs
+FoodName:Dill Scrambled Eggs    ; Allergens:Eggs
+FoodName:Huevos Rancheros    ; Allergens:Eggs
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Spinach & Feta Scramble    ; Allergens:Milk, Eggs
+FoodName:    ; Allergens:
+FoodName:Simply Eggs    ; Allergens:Eggs
+FoodName:GF Simply Eggs    ; Allergens:Eggs
+FoodName:Eggs Benedict    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Simply Egg    ; Allergens:Eggs
+FoodName:2 Fried Eggs    ; Allergens:Milk, Eggs
+FoodName:Eggs Benedict    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Eggs Benedict w/Sausage    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Spanish & Mushroom Egg Benedict    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Eggs Benedict w/Bacon & Cheese    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Spinach Mushroom Swiss Omelet    ; Allergens:Milk, Eggs
+FoodName:Huevos Rancheros    ; Allergens:Milk, Eggs
+FoodName:Huevos Rancheros    ; Allergens:Milk, Eggs
+FoodName:Egg White  Omelet    ; Allergens:Eggs
+FoodName:Huevos Rancheros    ; Allergens:Milk, Eggs, Wheat
+FoodName:EGG CREPE    ; Allergens:Eggs
+FoodName:BBQ Beef    ; Allergens:
+FoodName:Roast Beef    ; Allergens:
+FoodName:Yankee Pot Roast    ; Allergens:Wheat
+FoodName:Country Fried Steak    ; Allergens:Milk, Wheat
+FoodName:Pot Roast    ; Allergens:Wheat
+FoodName:BBQ Baby Back Ribs    ; Allergens:Fish, Soybeans
+FoodName:Braised Beef Short Ribs    ; Allergens:Soybeans
+FoodName:Thai Beef Roulade    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Marinated Flank Steak    ; Allergens:
+FoodName:Country Fried Steak w/Egg    ; Allergens:Milk, Eggs, Wheat
+FoodName:Spicy Garlic Beef with Basil    ; Allergens:
+FoodName:BBQ Tri Tips    ; Allergens:
+FoodName:BBQ Beef Brisket    ; Allergens:
+FoodName:Corned Beef    ; Allergens:
+FoodName:Grilled Sirloin Steak    ; Allergens:
+FoodName:Boiled Beef with Vegetables    ; Allergens:
+FoodName:Grilled Mongolian Beef    ; Allergens:
+FoodName:Steak Pizzaiola    ; Allergens:
+FoodName:Garlic/Salt Crusted Prime Rib    ; Allergens:
+FoodName:Hoisin Lime Beef Roast    ; Allergens:Wheat, Soybeans
+FoodName:Garlic/Salt Crusted NY Strip    ; Allergens:
+FoodName:Rottini With Beef And Beets    ; Allergens:Wheat
+FoodName:Add Sliced Meat    ; Allergens:
+FoodName:Beef Goulash    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Beef Brisket w/Carrots & Onion    ; Allergens:
+FoodName:Carne Asada    ; Allergens:Milk
+FoodName:Steak a La Carte LN FH    ; Allergens:
+FoodName:Lemongrass Beef    ; Allergens:Soybeans
+FoodName:Grilled Tri-tip    ; Allergens:
+FoodName:Meatloaf    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Beef Tagliarini    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Beef Burrito    ; Allergens:Wheat, Soybeans
+FoodName:Inside Out Ravioli    ; Allergens:Milk, Eggs, Wheat
+FoodName:Beef Macaroni Casserole    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Beef Lasagne    ; Allergens:Milk, Wheat
+FoodName:Beef Mostaccioli    ; Allergens:Milk, Wheat
+FoodName:Ground Beef    ; Allergens:
+FoodName:Beef Meatballs    ; Allergens:Milk, Eggs, Wheat
+FoodName:Beef Ravioli with Meat Sauce    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Beef Tacos    ; Allergens:Wheat, Soybeans
+FoodName:Chili Con Carne    ; Allergens:
+FoodName:Hot Link    ; Allergens:Milk
+FoodName:Indian Tacos    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Cactus Country Meatloaf    ; Allergens:Eggs
+FoodName:Beef Stuffed Peppers    ; Allergens:Milk
+FoodName:Beef Pastistio    ; Allergens:Milk, Wheat
+FoodName:    ; Allergens:
+FoodName:Chili Mac    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Beef Moussaka    ; Allergens:Milk, Eggs, Wheat
+FoodName:Beef Taco Meat    ; Allergens:
+FoodName:Meatloaf    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:Beef Nacho Pasta    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Beef Enchiladas    ; Allergens:Milk, Wheat
+FoodName:Beef Moussaka    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Beef Meatballs    ; Allergens:Milk, Eggs, Wheat
+FoodName:Beef Meatballs w/Marinara Sce    ; Allergens:Wheat, Soybeans
+FoodName:Beef Chili    ; Allergens:
+FoodName:Beef Chili 6 oz    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Beef Enchiladas Casserole    ; Allergens:Milk, Wheat
+FoodName:    ; Allergens:
+FoodName:Koenigsberger Klopse    ; Allergens:Milk, Eggs, Wheat
+FoodName:Beef Lasagne    ; Allergens:Milk, Wheat
+FoodName:German Meatballs    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Buffalo Chili    ; Allergens:
+FoodName:LBL Beef Lasagne    ; Allergens:Milk, Wheat
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Beef Meatballs    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Kefta    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Beef Lasagne    ; Allergens:Milk, Eggs, Wheat
+FoodName:Beef Torta    ; Allergens:Eggs
+FoodName:Meatballs    ; Allergens:Milk, Eggs, Wheat
+FoodName:Spaghettini w/Crmy Pesto/Chix    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Spaghettini w/Crmy Pesto/Chix    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Beef Pot Pie    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Beef Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Beef Stroganoff    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Beef Stew    ; Allergens:Wheat
+FoodName:Spicy Exotic Beef    ; Allergens:Fish, Peanuts
+FoodName:Beef Bourguignon    ; Allergens:Wheat, Soybeans
+FoodName:Beef & Tomato Stir Fry    ; Allergens:Soybeans
+FoodName:Beef Franks & Beans    ; Allergens:
+FoodName:Beef/Broccoli/Tomato Stir Fry    ; Allergens:Soybeans
+FoodName:Pepperoni    ; Allergens:
+FoodName:Beef Curry with Onions    ; Allergens:Milk, Tree Nuts
+FoodName:Cambodian Beef w/Lime Sauce    ; Allergens:Wheat, Soybeans
+FoodName:Tandoori Beef    ; Allergens:Milk, Tree Nuts
+FoodName:Korean BBQ Beef    ; Allergens:Soybeans
+FoodName:South African Bobotie    ; Allergens:Milk, Eggs, Tree Nuts, Wheat
+FoodName:Spiced Beef w/Pasta    ; Allergens:Wheat
+FoodName:    ; Allergens:
+FoodName:Celery Khoresh    ; Allergens:
+FoodName:Ginger Broccoli Beef    ; Allergens:Tree Nuts, Soybeans
+FoodName:Corned Beef Hash    ; Allergens:
+FoodName:Corned Beef Hash    ; Allergens:Fish, Soybeans
+FoodName:Tex-Mex Brkfst Casserole    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:Tex-Mex Breakfast Casserole    ; Allergens:Milk, Eggs, Fish, Soybeans
+FoodName:2 Layer Breakfast Casserole    ; Allergens:Milk, Eggs, Soybeans
+FoodName:2 Layer Breakfast Casserole    ; Allergens:Eggs, Soybeans
+FoodName:    ; Allergens:
+FoodName:Mongolian Beef    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Beef Hot Dog    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:BBQ Mongolian Beef Rice Bowl    ; Allergens:
+FoodName:Hot Dog    ; Allergens:
+FoodName:Beef Patty Quarted Pounder    ; Allergens:
+FoodName:Braised Beef w/Carrots & Onion    ; Allergens:Soybeans
+FoodName:Marinated Flank Steak    ; Allergens:Soybeans
+FoodName:Beef Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Korean Beef    ; Allergens:Soybeans
+FoodName:Beef Asada    ; Allergens:
+FoodName:Loco Moco    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Hungarian Goulash    ; Allergens:
+FoodName:Caribbean Beef Stew    ; Allergens:
+FoodName:Carne Asada    ; Allergens:
+FoodName:Hector's Carne Asada    ; Allergens:
+FoodName:Beef Chow Fun    ; Allergens:Wheat, Soybeans
+FoodName:Shredded Beef Tamale    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Beef Stew w/Star Anise/Basil    ; Allergens:Fish, Wheat
+FoodName:Broccoli Beef w/ Blk Bean Sauc    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:49'r Beef Hot Dog w/Bun    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Beef Barbacoa Filling    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Beef Rendang    ; Allergens:
+FoodName:Beef Java Curry (Contains Peanut Butter)    ; Allergens:Milk, Peanuts, Wheat, Soybeans
+FoodName:Shepherd's Pie    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Honey Mustard Glazed Ham    ; Allergens:
+FoodName:GF Bacon    ; Allergens:
+FoodName:Roast Pork    ; Allergens:
+FoodName:Ham w/Sliced Pineapple    ; Allergens:
+FoodName:Grilled Pork Chop    ; Allergens:
+FoodName:Bacon    ; Allergens:
+FoodName:Grilled Sliced Ham    ; Allergens:
+FoodName:Diced Ham    ; Allergens:
+FoodName:Grilled Smoked Pork Chop    ; Allergens:
+FoodName:Chopped Bacon    ; Allergens:
+FoodName:Chopped Pork Sausage Link    ; Allergens:
+FoodName:Cajun Style Pork Chop    ; Allergens:Wheat
+FoodName:Vietnamese Pork Chop    ; Allergens:Fish, Wheat
+FoodName:Jerk Baked Pork Chop    ; Allergens:Soybeans
+FoodName:Cajun Pork Chops    ; Allergens:Wheat
+FoodName:Brined Pork Chops    ; Allergens:
+FoodName:Pork Loin w/Honey Mustard Sce    ; Allergens:
+FoodName:Apple Stuffed Pork Chops    ; Allergens:Milk, Tree Nuts
+FoodName:Asian BBQ Pork    ; Allergens:Soybeans
+FoodName:BBQ Pork Crepe Filling    ; Allergens:Soybeans
+FoodName:Pomegranate 5 Spice Pork    ; Allergens:
+FoodName:Grilled Ham    ; Allergens:
+FoodName:Bacon LN    ; Allergens:
+FoodName:BBQ Spare Ribs    ; Allergens:
+FoodName:Adobo Pork Chop    ; Allergens:Soybeans
+FoodName:BREADED PORK CHOP    ; Allergens:Eggs, Wheat
+FoodName:Pork Carnita Filling    ; Allergens:
+FoodName:Italian Sausage w/Pep/On On Foc    ; Allergens:Wheat, Soybeans
+FoodName:Rst Pork Loin w/Mustard Sd Sce    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Citrus Marinated Pork Loin    ; Allergens:
+FoodName:Braised Pork    ; Allergens:
+FoodName:Garlic Marinated Pork Chop    ; Allergens:
+FoodName:KAO PORK CHOPS    ; Allergens:
+FoodName:Italian Pork Roast    ; Allergens:
+FoodName:Pork Ossobucco    ; Allergens:Wheat
+FoodName:Foothill's Bacon    ; Allergens:
+FoodName:Braised Pork w/Prunes    ; Allergens:Milk
+FoodName:Southern Glazed Ham    ; Allergens:
+FoodName:Blk Bean Pepper Spareribs    ; Allergens:Soybeans
+FoodName:Chinese BBQ Pork Ribs    ; Allergens:Wheat, Soybeans
+FoodName:Gingered Glazed Spiral Ham    ; Allergens:
+FoodName:Honey Vinegar Short Ribs    ; Allergens:Wheat, Soybeans
+FoodName:5-HOUR ROAST PORK    ; Allergens:
+FoodName:Hawaiian BBQ Pork    ; Allergens:Soybeans
+FoodName:Chopped Bacon    ; Allergens:
+FoodName:Banh Chung    ; Allergens:
+FoodName:Whole Roasted Pig    ; Allergens:
+FoodName:Fried Pork Chop    ; Allergens:Wheat, Soybeans
+FoodName:Pueblo Feast Day Pork Roast    ; Allergens:Wheat
+FoodName:Pork Fritters    ; Allergens:Milk, Wheat
+FoodName:Pork Lumpia w/Sauce    ; Allergens:Eggs, Tree Nuts, Wheat, Soybeans
+FoodName:Mustard Crusted Pork Loin    ; Allergens:
+FoodName:Home Made Pork Fritters    ; Allergens:Eggs, Wheat
+FoodName:Porkloin w/ Pom/Mustard sauce    ; Allergens:
+FoodName:Caramel Pork with Eggs and Daikon    ; Allergens:Eggs, Fish, Wheat
+FoodName:BBQ Spare Ribs w/ Swt/Spcu Sce    ; Allergens:
+FoodName:GF Pork Sausage Link    ; Allergens:
+FoodName:Sausage Tuscany    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Sliced Linguisa    ; Allergens:
+FoodName:GF Sausage Patty    ; Allergens:
+FoodName:WW Palermo Pizza    ; Allergens:Wheat
+FoodName:WW Pineapple Sausage Pizza    ; Allergens:Milk, Wheat
+FoodName:Palermo Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Italian Sausage w/Mushrm Fill    ; Allergens:
+FoodName:Linguini Pasta w/Saus/Msh Sce    ; Allergens:Milk, Wheat
+FoodName:Pork Tamale Pie    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Sausage Pineapple Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Caramelized Onion/Bacon Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:WW Carmlzed Onion/Bacon Pizza    ; Allergens:Milk, Wheat
+FoodName:Maple Syrup Flv Sausage Links    ; Allergens:
+FoodName:Skinless Pork Sausage Link    ; Allergens:
+FoodName:Flo's Tropical Pizza    ; Allergens:Milk
+FoodName:Pork Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Ham Polynesian    ; Allergens:Soybeans
+FoodName:Sweet & Sour Pork    ; Allergens:Soybeans
+FoodName:WW Aritchoke Ham Pizza    ; Allergens:Milk, Wheat
+FoodName:Pork Fried Rice    ; Allergens:Eggs, Soybeans
+FoodName:Ham Primavera    ; Allergens:Wheat, Soybeans
+FoodName:Macaroni & Cheese w/Ham    ; Allergens:Milk, Fish, Wheat, Soybeans
+FoodName:Scalloped Apples & Sausage    ; Allergens:Soybeans
+FoodName:Ham & Bacon Jambalaya    ; Allergens:Fish, Soybeans
+FoodName:Pork Stir Fry    ; Allergens:Eggs, Crustacean Shellfish, Peanuts, Soybeans
+FoodName:Pork Chow Mein    ; Allergens:Wheat, Soybeans
+FoodName:Pork Fried Rice    ; Allergens:Eggs, Wheat, Soybeans
+FoodName:Country Breakfast Strata    ; Allergens:Milk, Eggs
+FoodName:Italian Sausage Topping    ; Allergens:
+FoodName:Country Brkfst Casserole LBL    ; Allergens:Milk, Eggs
+FoodName:Big Kahuna Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Pork & Bean Curd Rice Bowl    ; Allergens:Soybeans
+FoodName:Marinated Pork    ; Allergens:
+FoodName:BBQ Pork Rice Bowl    ; Allergens:Wheat, Soybeans
+FoodName:Marinated Pork    ; Allergens:Soybeans
+FoodName:Pork Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Pork Carnitas    ; Allergens:
+FoodName:Late Night Taco Carnitas    ; Allergens:
+FoodName:Foothill's Pork Carnitas Burto Filling    ; Allergens:
+FoodName:Chicken Phad Thai Stir Fry    ; Allergens:Eggs, Fish, Peanuts, Wheat
+FoodName:Chicken StirFry  w/Lmngrs/Chili    ; Allergens:Fish, Wheat
+FoodName:Sausage with Peppers & Onions    ; Allergens:
+FoodName:Italian Sausage with Penne    ; Allergens:Milk, Wheat
+FoodName:Artichoke Ham Pizza    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Chile Verde    ; Allergens:
+FoodName:Kalua Pig And Cabbage    ; Allergens:Soybeans
+FoodName:Jamaica Jerk Pork    ; Allergens:Soybeans
+FoodName:Fettucine Boscaiola    ; Allergens:Wheat
+FoodName:Pork Adobo    ; Allergens:Soybeans
+FoodName:Cider Braised Pork    ; Allergens:
+FoodName:Pork Pozole    ; Allergens:
+FoodName:Mu Shu Pork Fajitas    ; Allergens:Wheat, Soybeans
+FoodName:Lamb Tomato Breide    ; Allergens:
+FoodName:Indvd Pepperoni Pizza FH LN    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Pork Vindaloo GF    ; Allergens:
+FoodName:Vindaloo a la Conrad    ; Allergens:
+FoodName:Kaluha Pork    ; Allergens:
+FoodName:Slow Braised Pork w/ Grapes    ; Allergens:
+FoodName:Pork Chow Fun    ; Allergens:Wheat, Soybeans
+FoodName:Jambalaya    ; Allergens:
+FoodName:LAMB ROAST    ; Allergens:Soybeans
+FoodName:Yogurt Grilled Leg of Lamb    ; Allergens:Milk
+FoodName:Irish Stew w/Lamb    ; Allergens:Wheat
+FoodName:Tamarind Glazed Meatloaf    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Veal Osso Bucco    ; Allergens:Wheat
+FoodName:Lamb Biriyani    ; Allergens:Milk
+FoodName:Curried Lamb Madras    ; Allergens:Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Marinated Lamb    ; Allergens:Soybeans
+FoodName:Lamb Stir Fry    ; Allergens:Wheat, Soybeans
+FoodName:Lamb Vindaloo    ; Allergens:
+FoodName:Lamb & Okra Casserole    ; Allergens:Milk
+FoodName:Lamb and Celery Khoresh    ; Allergens:Milk
+FoodName:Lamb Tagine    ; Allergens:Tree Nuts
+FoodName:Djaj Mahshi    ; Allergens:
+FoodName:Lamb Moussaka    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Ground Lamb w/Spinach & Mint    ; Allergens:Milk
+FoodName:Black Eyed Peas w/Veal    ; Allergens:
+FoodName:Roast Turkey    ; Allergens:
+FoodName:Turkey Canadian Bacon    ; Allergens:
+FoodName:Roasted Turkey Drumsticks    ; Allergens:
+FoodName:Bean & Turkey Enchiliadas Casserole    ; Allergens:Milk, Wheat
+FoodName:Roast Turkey Breast    ; Allergens:
+FoodName:Spinach/Chard Stuffed Turkey    ; Allergens:Tree Nuts
+FoodName:Roasted Turkey Wings    ; Allergens:
+FoodName:Turkey Sausage Link    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Zesty Stuffed Zucchini    ; Allergens:Eggs
+FoodName:Turkey Lasagne w/Red Sauce    ; Allergens:Milk, Wheat
+FoodName:Turkey Moussaka    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Turkey Lasagne w/White Sce    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Turkey Meatloaf    ; Allergens:Milk, Eggs, Fish, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:Turkey Burrito    ; Allergens:Wheat, Soybeans
+FoodName:Turkey Tacos    ; Allergens:Wheat, Soybeans
+FoodName:Turkey Sausage Link    ; Allergens:
+FoodName:Tukey Tamale Pie    ; Allergens:Milk, Eggs
+FoodName:Taco Salad Turkey Meat    ; Allergens:
+FoodName:Turkey Nacho Pasta    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Turkey Lasagne    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Turkey Almond Rice Casserole    ; Allergens:Milk, Tree Nuts, Wheat, Soybeans
+FoodName:Turkey Tacos    ; Allergens:Wheat, Soybeans
+FoodName:Turkey Tetrazzini    ; Allergens:Milk, Wheat
+FoodName:Turkey Noodle Casserole    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Turkey Pot Pie    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Turkey Ala King w/Patty Shell    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Turkey Butternut Squash Pie    ; Allergens:Fish, Wheat, Soybeans
+FoodName:Turkey Ala King    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Spice Rubbed Chicken w/Pasta    ; Allergens:Wheat
+FoodName:Turkey Curry    ; Allergens:Milk, Wheat, Soybeans
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:Turkey Friccase    ; Allergens:Milk, Eggs, Wheat, Soybeans
+FoodName:Turkey Hot Dog    ; Allergens:
+FoodName:    ; Allergens:
+FoodName:TURKEY HOT DOGS    ; Allergens:Milk, Wheat, Soybeans
+FoodName:Spaghetti w/Chicken & Peppers    ; Allergens:Wheat, Soybeans
+FoodName:West Coast Pasta w/Chicken    ; Allergens:Milk, Wheat, Soybeans
