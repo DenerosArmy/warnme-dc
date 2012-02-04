@@ -73,7 +73,7 @@ class Offering(models.Model):
     )
     meal = models.CharField(max_length=1, choices=MEAL_CHOICES)
 
-    foods = models.ManyToManyField(Food, related_name='offerings')
+    foods = models.ManyToManyField(Food, related_name='offerings', blank=True)
 
     def __str__(self):
         return "{}: {} MEAL ON {}".format(
