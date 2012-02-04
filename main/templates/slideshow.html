@@ -1,0 +1,29 @@
+<script language="JavaScript">
+  {
+    var ran_unrounded=Math.random()*6;
+    var ran_number=Math.round(ran_unrounded);
+    var currentImage = ran_number;
+
+    function changeImage(){
+      if (document.images){
+        if(currentImage<7)
+          currentImage++
+        else
+          currentImage = 1
+        if(currentImage == 1)
+        document.slideShow.src = "{{ STATIC URL }}/1.png"
+        else if(currentImage == 2)
+          document.slideShow.src = "{{ STATIC URL }}/2.png"
+        else if(currentImage == 3)
+          document.slideShow.src = "{{ STATIC URL }}/3.png"
+        else if(currentImage == 4)
+          document.slideShow.src = "{{ STATIC URL }}/4.png"
+        setTimeout("changeImange()" 5000)
+      }
+    }
+  }
+</script>
+
+{% block slideshow %}
+<img src="{{ STATUC URL }}/meat.png" width="100%" height="100%" />
+{% endblock %}
