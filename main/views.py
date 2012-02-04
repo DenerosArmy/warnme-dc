@@ -36,6 +36,7 @@ def sorted_foods(date, location, meal):
         return {"main_foods": o[0].foods.order_by("-rating"),
                 "other_foods": []}
 
+@login_required
 def rate(request, food_key, rating):
     """Rate a given food (with key).
 
