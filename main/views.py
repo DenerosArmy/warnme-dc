@@ -14,24 +14,24 @@ from main.models import *
 def home(request):
     data = {}
     date = datetime.date.today()
-	try:
-		user_prof = UserProfile.objects.get(user=request.user)
-	except ObjectDoesNotExist:
-		user_prof = None
-	if user_prof != None:
-		for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
-			data[location] = {}
-			if date.isoweekday() != 6 and date.isoweekday() != 7:
-				data[location]['B'] = filter_blacklists(user_prof, date, location, 'B')
-			data[location]['L'] = filter_blacklists(user_prof, date, location, 'L')
-			data[location]['D'] = filter_blacklists(user_prof, date, location, 'D')
-	else:
-		for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
-			data[location] = {}
-			if date.isoweekday() != 6 and date.isoweekday() != 7:
-				data[location]['B'] = sorted_foods(date, location, 'B')
-			data[location]['L'] = sorted_foods(date, location, 'L')
-			data[location]['D'] = sorted_foods(date, location, 'D')
+    try:
+        user_prof = UserProfile.objects.get(user=request.user)
+    except ObjectDoesNotExist:
+        user_prof = None
+    if user_prof != None:
+        for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
+            data[location] = {}
+            if date.isoweekday() != 6 and date.isoweekday() != 7:
+                data[location]['B'] = filter_blacklists(user_prof, date, location, 'B')
+            data[location]['L'] = filter_blacklists(user_prof, date, location, 'L')
+            data[location]['D'] = filter_blacklists(user_prof, date, location, 'D')
+    else:
+        for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
+            data[location] = {}
+            if date.isoweekday() != 6 and date.isoweekday() != 7:
+                data[location]['B'] = sorted_foods(date, location, 'B')
+            data[location]['L'] = sorted_foods(date, location, 'L')
+            data[location]['D'] = sorted_foods(date, location, 'D')
     return render_to_response('home.html',
                               RequestContext(request,{"data":data,
                                                       "def_loc":user_prof.default_location}))
