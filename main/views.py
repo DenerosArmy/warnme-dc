@@ -48,6 +48,7 @@ def rate(request, food_key, rating):
     try:
         rating = int(rating)
         if rating not in (0, 1): return HttpResponse("Error: bad rating key")
+        food = Food.objects.get(id=food_key)
         votecount = UserRating.objects.filter(user=request.user).count()+0.1
         if votecount < 1.1: votecount = 1.1
         weight = log10(votecount)
