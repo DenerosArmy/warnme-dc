@@ -18,6 +18,7 @@ urlpatterns = patterns('',
         ('^login/$', login_user),
         ('^logout/$', logout_user),
         ('^register/$', register_user),
+        ('^profile/$', user_profile),
         ('^rate/(\d+)/(\d)/$', rate),                   # rate a given food
     # Examples:
     # url(r'^$', 'warnme_dc.views.home', name='home'),
