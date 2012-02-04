@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load filters %}
+
+{% block title %}Cretae an account{% endblock %}
+
+{% block content %}
+<h2>Create an account</h2>
+
+	{{ state }}
+
+      <form action="." method="post">
+		{{ form.as_p }}
+        <input type="submit" value="Create the account" />
+      </form>
+
+{% endblock %}
