@@ -14,7 +14,7 @@
             <h2> {{ meal|meal_name }} </h2>
             <h3> Main foods </h3>
             {% for food in foods.main_foods %}
-            <p class="{{ food|rating_class }}"> {{ food.name }}  ({{ food.rating }}) &nbsp <a href="/rate/{{food.id}}/1"><img src="{{ STATIC_URL }}/up.png" width="16px" height="16px"/></a>&nbsp<a href="/rate/{{food.id}}/0"><img src="{{ STATIC_URL }}/down.png" width="16px" height="16px"/></a></p>
+            <p class="{{ food|rating_class }}"> {{ food.name }}  ({{ food.rating }}) &nbsp <a href="/rate/{{food.id}}/1"><img src="{{ STATIC_URL }}/up.png" width="14px" height="14px"/></a>&nbsp<a href="/rate/{{food.id}}/0"><img src="{{ STATIC_URL }}/down.png" width="14px" height="14px"/></a></p>
             {% endfor %}
             <br>
             <h3> Other foods </h3>
