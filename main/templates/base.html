@@ -15,10 +15,14 @@
             </div>
         </div>
         <ul id="nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">FOOD</a></li>
-            <li><a href="#">RATE</a></li>
+            <li><a href="/home">Menu</a></li>
+{% if user.is_authenticated %}
+            <li><a href="/profile">User Profile</a></li>
+            <li><a href="/logout">Log out ({{ user.username }})</a></li>
+{% else %}
+            <li><a href="/register">Register</a></li>
+            <li><a href="/login">Log in</a></li>
+{% endif %}
         </ul>
         <img src="{{ STATIC_URL }}meat.png" width="100%" height="40%" />
         <div id="wrap">
