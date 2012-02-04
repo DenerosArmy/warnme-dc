@@ -33,7 +33,7 @@ color:#fff
 
 <h2>Dietary Restrictions</h2>
 {% for tag, xin in tags %}
-{% if not xin %}
+{% if xin %}
 <p id="tag{{ tag.id }}" class="active"> {{ tag.name }} <a id="tag{{ tag.id }}a" href="javascript:del('tag{{ tag.id }}')">Remove </a></p>
 {% else %}
 <p id="tag{{ tag.id }}" class="inactive"> {{ tag.name }} <a id="tag{{ tag.id }}a" href="javascript:del('tag{{ tag.id }}')">Blacklist </a></p>
