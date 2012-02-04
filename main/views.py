@@ -10,35 +10,7 @@ from django import forms
 import datetime
 from math import log10
 from main.models import *
-from texting import *
 
-def genwarn():
-
-    date = dateTime.date.today()
-    DEFAULT_NUMBER = "5106043735" 
-
-    def warn_check(user):
-        location = user.default_location
-        filteredLunch = filter_blacklist(user,date,location, "L" ) 
-        filteredDinner = filter_blacklist(user,date,location, "D") 
-        warn_message = "" 
-        if len(filteredLunch['main_foods']) < len(filteredLunch['other_foods']):            
-            warn_message += generate_warn_message(user,"L",filteredLunch) + " \n  " 
-        if len(filteredDinner['main_foods'] < len(filteredDinner['other_foods']): 
-            warn_message += generate_warn_messafe(user,"D",filteredDinner) 
-        if len(warn_message) >= 0: 
-            text(user.number, warn_message) 
-        
-    def generate_warn_message(user,meal,data):
-        sumi = 0 
-        percentage = float(len(filteredLunch['other_foods']))/((len(filteredLunch['main_foods'] + len(filteredLunch['other_foods'])))) * 100 
-        for i in filteredLunch['main_foods']: 
-            sumi += i.get_rating() 
-        average = sumi/len(filteredLunch['main_foods'])  
-        message = "{0} percent of todays {1} seems to be on your blacklist. The rest of the food has an average rating of {2}. Please making according plans.".format(percentage, meal, average)  
-    
-    for u in user.profiles.objects.all(): 
-	warn_check(u)
 
 def home(request):
     data = {}
@@ -90,7 +62,6 @@ def filter_blacklists(user, date, location, meal):
         blacklisted = False
         for tag in user.blacklisted_tags.all():
             if food in tag.foods.all():
-                print str(food), str(tag)
                 blacklisted_foods.append(food)
                 blacklisted = True
                 break
@@ -230,5 +201,3 @@ def register_user(request):
     return render_to_response("register.html", RequestContext(request,{
         'form': form,
     }))
-
-genwarn()
