@@ -1,5 +1,6 @@
 from django.conf.urls.defaults import patterns, include, url
 from main.views import home, food, food_profile, user_profile
+from menu.views import gendb
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -11,6 +12,7 @@ urlpatterns = patterns('',
         ('^food/$', food),                   # list all the food
         ('^food/id/(\d{6})/$', food_profile),   # specific food page
         ('^user/id/(\d{6})/$', user_profile),   # specific user profile
+        ('^run/gendb/$', gendb),   # specific user profile
     # Examples:
     # url(r'^$', 'warnme_dc.views.home', name='home'),
     # url(r'^warnme_dc/', include('warnme_dc.foo.urls')),
