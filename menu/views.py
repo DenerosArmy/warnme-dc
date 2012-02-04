@@ -2,6 +2,7 @@
 from django.http import HttpResponse
 import datetime
 from main.models import *
+from DailyFoodGen import genmenu
 
 def gendb(request):
     """Generate the database"""
