@@ -14,10 +14,14 @@
             <h1>WARN ME DC</h1>
         </div>
         <ul id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Food</a></li>
-            <li><a href="#">Rate</a></li>
+            <li><a href="/home">Menu</a></li>
+{% if user.is_authenticated %}
+            <li><a href="/profile">User Profile</a></li>
+            <li><a href="/logout">Log out ({{ user.username }})</a></li>
+{% else %}
+            <li><a href="/register">Register</a></li>
+            <li><a href="/login">Log in</a></li>
+{% endif %}
         </ul>
         <div id="wrap">
             <div id="content">
