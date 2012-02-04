@@ -58,11 +58,13 @@ def filter_blacklists(user, date, location, meal):
     for food in offerings:
         blacklisted = False
         for tag in user.blacklisted_tags.all():
-            if str(food) in str(tag):
+            if food in tag.foods.all():
+                print str(food), str(tag)
                 blacklisted_foods.append(food)
                 blacklisted = True
                 break
-            if not blacklisted: main_foods.append(food)
+        if not blacklisted: main_foods.append(food)
+
     return {"main_foods": main_foods,
             "other_foods": blacklisted_foods}
 
