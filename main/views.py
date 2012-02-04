@@ -1,7 +1,12 @@
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
+from django import forms
+
 import datetime
 from main.models import *
 
@@ -64,6 +69,52 @@ def food_profile(request,num):
     return render_to_response('food_pf.html', RequestContext(request,{
                 'id': num}))
 
-def user_profile(request,num):
+@login_required
+def user_profile(request):
     return render_to_response('user.html', RequestContext(request,{
-                'id': num}))
+                'id': request.user.id}))
+
+def login_user(request):
+    if request.user.is_authenticated():
+        return HttpResponseRedirect("/home/")
+
+    state = "Please log in below..."
+    username = password = ''
+    if request.POST:
+        username = request.POST.get('username');
+        password = request.POST.get('password');
+
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return HttpResponseRedirect("/home/")
+                state = "You're successfully logged in!"
+            else:
+                state = "Your acount is not active, please contact the site admin."
+        else:
+            state = "Your username and/or password is incorrect."
+
+    return render_to_response('login.html', RequestContext(request,{
+                'state':state, 'username':username}))
+
+def logout_user(request):
+    if not request.user.is_authenticated():
+        state = "You are not logged in"
+
+    logout(request)
+    state = "You are now logged out"
+    return render_to_response('logout.html', RequestContext(request,{
+                    'state':state}))
+
+def register_user(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            new_user = form.save()
+            return HttpResponseRedirect("/login")
+    else:
+        form = UserCreationForm()
+    return render_to_response("register.html", RequestContext(request,{
+        'form': form,
+    }))
