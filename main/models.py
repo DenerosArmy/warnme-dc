@@ -31,6 +31,10 @@ class Food(models.Model):
     def __str__(self):
         return self.name
 
+	def add_rating(self, rating):
+		self.rating += rating
+		self.save()
+
 class UserRating(models.Model):
     """One user rating
 
