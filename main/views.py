@@ -3,6 +3,7 @@ from django.template import RequestContext
 from django.http import HttpResponse
 from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 import datetime
+from math import log10
 from main.models import *
 
 def home(request):
@@ -40,14 +41,15 @@ def rate(request, food_key, rating):
     :param rating: 0 means thumbs down, 1 means thumbs up
     """
     try:
-        if int(rating) == 1:
-            rating = 0.5
-        elif int(rating) == 0:
-            rating = -0.5
-        else:
-            return HttpResponse("Error: bad rating key")
+        rating = int(rating)
+        if rating not in (0, 1): return HttpResponse("Error: bad rating key")
+        votecount = UserRating.objects.filter(user=request.user).count()+0.1
+        if votecount < 1.1: votecount = 1.1
+        weight = log10(votecount)
+        if weight > 1.5: weight = 1.5
+        rating = ((-1)**rating)*weight
         u = UserRating(user=request.user,
-                       food=Food.objects.get(id=food_key),
+                       food=food,
                        rating=rating)
 
     except ObjectDoesNotExist:
@@ -68,3 +70,5 @@ def food_profile(request,num):
 def user_profile(request,num):
     return render_to_response('user.html', RequestContext(request,{
                 'id': num}))
+
+
