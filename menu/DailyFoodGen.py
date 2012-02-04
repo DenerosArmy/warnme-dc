@@ -17,10 +17,11 @@ def genmenu(request = None):
 		colortags = {"800040":"Vegan","000A0":"Vegetarian w/Dairy or Eggs","008000":"Vegetarian"}
 		food_to_tags = {} 
 		for i in colortags.values(): 
-			t = FoodTag.add(name=str(i)) 
+			t, boolean = FoodTag.objects.get_or_create(name=str(i)) 
 			t.save() 
 		for i in list(soup.findAll("font")): 
-			if i[8:13] == "color":
+			i = str(i)
+			if i[6:11] == "color":
 				if i[14:20] in colortags:
 					food_to_tags[i[22:-7]] = colortags[i[14:20]] 
 			
@@ -41,7 +42,6 @@ def genmenu(request = None):
 			CurrMeal = meals[MealCount] 
 			if FoodStart:
 				CurrMeal.append(each) 
-	 	
 
 		for number in meals:
 			mealdata = mealtags[number]
@@ -53,10 +53,12 @@ def genmenu(request = None):
 			O = Offering(meal=meal,location = location, date=Date ) 
 			O.save()
 			for food in meals[number]:
-				f, boolean = Food.objects.get_or_create(name=food,default={"rating":0.0} )
-				f.tags.add(food_to_tags[food]) 
-				f.save()
 				f, boolean = Food.objects.get_or_create(name=food,defaults={"rating":0.0} )
+				try:
+					f.tags.add(FoodTag.objects.get(name=food_to_tags[food]))
+					f.save()
+				except:
+					pass
 				O.foods.add(f) 
 			O.save()
     

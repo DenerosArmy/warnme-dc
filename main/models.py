@@ -31,6 +31,14 @@ class Food(models.Model):
     def __str__(self):
         return self.name
 
+	def add_rating(self, rating):
+		self.rating += rating
+		self.save()
+
+    def get_rating(self):
+        return (self.rating)/(UserRating.objects.filter(food=self).count())
+        
+
 class UserRating(models.Model):
     """One user rating
 

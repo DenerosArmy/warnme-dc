@@ -27,3 +27,7 @@ def meal_name(meal):
     for tag, name in Offering.MEAL_CHOICES:
         if tag == meal:
             return name
+
+@register.filter()
+def get_rating(food):
+    return (food.rating)/(UserRating.objects.filter(food=food).count())
