@@ -52,18 +52,17 @@ def filter_blacklists(user, date, location, meal):
                                         meal=str(meal))
     if len(offerings) == 0: return {}
     offerings = offerings[0].foods.order_by("-rating")
-    else:
-        main_foods, blacklisted_foods = [], []
-        for food in offerings:
-            blacklisted = False
-            for tag in user.blacklisted_tags.all():
-                if str(food) in str(tag):
-                    blacklisted_foods.append(food)
-                    blacklisted = True
-                    break
-            if not blacklisted: main_foods.append(food)
-        return {"main_foods": main_foods,
-                "other_foods": blacklisted_foods}
+	main_foods, blacklisted_foods = [], []
+	for food in offerings:
+		blacklisted = False
+		for tag in user.blacklisted_tags.all():
+			if str(food) in str(tag):
+				blacklisted_foods.append(food)
+				blacklisted = True
+				break
+		if not blacklisted: main_foods.append(food)
+	return {"main_foods": main_foods,
+			"other_foods": blacklisted_foods}
 
 def has_rated(user, food):
     """Returns if a user has voted on a certain food recently."""
