@@ -68,7 +68,7 @@ def rate(request, food_key, rating):
         u = UserRating(user=request.user,
                        food=food,
                        rating=rating)
-
+        food.add_rating(rating)
     except ObjectDoesNotExist:
         return HttpResponse("Error: Food does not exist")
     except MultipleObjectsReturned:
