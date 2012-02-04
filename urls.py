@@ -1,4 +1,5 @@
 from django.conf.urls.defaults import patterns, include, url
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from main.views import home, food, food_profile, user_profile
 from menu.views import gendb
 
@@ -23,3 +24,6 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 )
+
+
+urlpatterns += staticfiles_urlpatterns()
