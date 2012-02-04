@@ -36,6 +36,13 @@ def sorted_foods(date, location, meal):
         return {"main_foods": o[0].foods.order_by("-rating"),
                 "other_foods": []}
 
+def has_rated(user, food):
+    """Returns if a user has voted on a certain food recently."""
+    lastvotetime = UserRating.objects.filter(user=user, food=food).order_by("-id")[0].time
+    timediff = datetime.datetime.now() - lastvotetime
+    if abs(timediff.days) > 1: return False
+    return True
+
 @login_required
 def rate(request, food_key, rating):
     """Rate a given food (with key).
@@ -48,8 +55,11 @@ def rate(request, food_key, rating):
     """
     try:
         rating = int(rating)
-        if rating not in (0, 1): return HttpResponse("Error: bad rating key")
+        if rating not in (0, 1):
+            return HttpResponse("Error: bad rating key")
         food = Food.objects.get(id=food_key)
+        if has_rated(request.user, food): 
+            return HttpResponse("You have already voted on this recently. Please try again.")
         votecount = UserRating.objects.filter(user=request.user).count()+0.1
         if votecount < 1.1: votecount = 1.1
         weight = log10(votecount)
