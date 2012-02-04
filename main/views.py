@@ -18,6 +18,9 @@ def home(request):
         user_prof = UserProfile.objects.get(user=request.user)
     except ObjectDoesNotExist:
         user_prof = None
+    except TypeError:
+        user_prof = None
+
     if user_prof != None:
         for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
             data[location] = {}
@@ -33,8 +36,7 @@ def home(request):
             data[location]['L'] = sorted_foods(date, location, 'L')
             data[location]['D'] = sorted_foods(date, location, 'D')
     return render_to_response('home.html',
-                              RequestContext(request,{"data":data,
-                                                      "def_loc":user_prof.default_location}))
+                              RequestContext(request,{"data":data}))
 
 def sorted_foods(date, location, meal):
     """Return a dict of main_foods and other_foods for a given offering"""
@@ -52,17 +54,17 @@ def filter_blacklists(user, date, location, meal):
                                         meal=str(meal))
     if len(offerings) == 0: return {}
     offerings = offerings[0].foods.order_by("-rating")
-	main_foods, blacklisted_foods = [], []
-	for food in offerings:
-		blacklisted = False
-		for tag in user.blacklisted_tags.all():
-			if str(food) in str(tag):
-				blacklisted_foods.append(food)
-				blacklisted = True
-				break
-		if not blacklisted: main_foods.append(food)
-	return {"main_foods": main_foods,
-			"other_foods": blacklisted_foods}
+    main_foods, blacklisted_foods = [], []
+    for food in offerings:
+        blacklisted = False
+        for tag in user.blacklisted_tags.all():
+            if str(food) in str(tag):
+                blacklisted_foods.append(food)
+                blacklisted = True
+                break
+            if not blacklisted: main_foods.append(food)
+    return {"main_foods": main_foods,
+            "other_foods": blacklisted_foods}
 
 def has_rated(user, food):
     """Returns if a user has voted on a certain food recently."""
