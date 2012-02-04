@@ -1,5 +1,7 @@
 from django.shortcuts import render_to_response
 from django.template import RequestContext
+from django.http import HttpResponse
+from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 import datetime
 from main.models import *
 
@@ -18,7 +20,36 @@ def home(request):
     return render_to_response('home.html', RequestContext(request,{
                 "data": data}))
 
+def rate(request, food_key, rating):
+    """Rate a given food (with key).
+
+    The actual 'value' of the rating is deduced based on the circumstances
+    (e.g. whether the user is rating past food already eaten, or new food
+    yet to be offered)
+
+    :param rating: 0 means thumbs down, 1 means thumbs up
+    """
+    try:
+        if int(rating) == 1:
+            rating = 0.5
+        elif int(rating) == 0:
+            rating = -0.5
+        else:
+            return HttpResponse("Error: bad rating key")
+        u = UserRating(user=request.user,
+                       food=Food.objects.get(id=food_key),
+                       rating=rating)
+
+    except ObjectDoesNotExist:
+        return HttpResponse("Error: Food does not exist")
+    except MultipleObjectsReturned:
+        assert False
+    else:
+        u.save()
+        return HttpResponse("Success")
+
 def sorted_foods(date, location, meal):
+    """Return a dict of main_foods and other_foods for a given offering"""
     o = Offering.objects.filter(location=location, date=date, meal=meal)
     if len(o) == 0:
         return {}
