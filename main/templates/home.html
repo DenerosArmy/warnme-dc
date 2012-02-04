@@ -6,17 +6,18 @@
 {% block content %}
 {% for location, meals_foods in data.items %}
 <div style="width:100%; height:250px; padding:20px">
-    <div style="width:30%; float:left; background-color:#C19441; padding:20px">
+    <div style="width:30%; float:left; background-color:#C19441; padding:20px; border-radius:10px;" >
         <h1> {{ location|location_name }} </h1>
     </div>
     {% for meal, foods in meals_foods.items %}
-        <div style="width:25%; height:230px; line-height:0px; float:right; padding-left:20px; padding-right:40px; background-color:#F7E0A3;">
+    <div style="width:29%; height:250px; padding-left: 10px; margin-left: 10px; line-height:1em; float:left; background-color:#F7F0A3; border-radius:10px;">
             <h2> {{ meal|meal_name }} </h2>
-            <h5> Main foods </h5>
+            <h3> Main foods </h3>
             {% for food in foods.main_foods %}
-            <a href="/rate/{{food.id}}/1"><img src="{{ STATIC_URL }}/up.png" /></a><a href="/rate/{{food.id}}/0"><img src="{{ STATIC_URL }}/down.png" /></a><p class="{{ food|rating_class }}"> {{ food.name }}  ({{ food.rating }}) </p>
+            <p class="{{ food|rating_class }}"> {{ food.name }}  ({{ food.rating }}) &nbsp <a href="/rate/{{food.id}}/1"><img src="{{ STATIC_URL }}/up.png" width="16px" height="16px"/></a>&nbsp<a href="/rate/{{food.id}}/0"><img src="{{ STATIC_URL }}/down.png" width="16px" height="16px"/></a></p>
             {% endfor %}
-            <h5> Other foods </h5>
+            <br>
+            <h3> Other foods </h3>
             {% for food in foods.other_foods %}
                 <p> {{ food.name }}  ({{ food.rating }})</p>
             {% endfor %}
