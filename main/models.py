@@ -10,6 +10,10 @@ class FoodTag(models.Model):
     """
     name = models.CharField(max_length=30)
 
+    def __str__(self):
+        return self.name
+
+
 class Food(models.Model):
     """Food
 
@@ -21,7 +25,10 @@ class Food(models.Model):
     """
     name = models.CharField(max_length=60)
     rating = models.FloatField()
-    tags = models.ManyToManyField(FoodTag, related_name='foods')
+    tags = models.ManyToManyField(FoodTag, related_name='foods', blank=True)
+
+    def __str__(self):
+        return self.name
 
 class UserRating(models.Model):
     """One user rating
@@ -33,8 +40,12 @@ class UserRating(models.Model):
     """
     user = models.ForeignKey(User)
     time = models.DateTimeField(auto_now_add=True)
-    food = models.ManyToManyField(Food, related_name='user_ratings')
+    food = models.ForeignKey(Food, related_name='user_ratings')
     rating = models.FloatField()
+
+    def __str__(self):
+        return "USER {} AT {} RATES {} AS {}".format(
+            self.user, self.time, self.food, self.rating)
 
 class Offering(models.Model):
     """Food offerings for a given day
@@ -63,3 +74,7 @@ class Offering(models.Model):
     meal = models.CharField(max_length=1, choices=MEAL_CHOICES)
 
     foods = models.ManyToManyField(Food, related_name='offerings')
+
+    def __str__(self):
+        return "{}: {} MEAL ON {}".format(
+            self.location, self.meal, self.date)
