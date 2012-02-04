@@ -6,38 +6,31 @@ from main.models import *
 def gendb(request):
     """Generate the database"""
 
-    file = open("~/Code4Cal/warnme-dc/menu/data/food")
+    file = open("/home/nikita/dev/warnme-dc/menu/data/food")
     foods = file.readlines()
-    for each in foods:
+    for i, each in enumerate(foods):
+        print "Reached food # {}: {}".format(i, each)
+
 	data = each.split(";")
 	food = data[0][9:].strip() 
-	tags = data[1][10:].strip().split(",")  
+	tags = [ x.strip() for x in data[1][11:].split(",") ]
 	if len(food) == 0:
-		continue 
-	query = Food.objects.filter(name=food):
-	if not query:
-		f = Food(name=food) 
-		f.save() 
-	else:
-		f=query[0] 
+		continue
+
+        f, created = Food.objects.get_or_create(name=food,
+                                                   defaults={"rating":0.0})
+
 	if not tags:
 		continue 
-	
-	for tag in tags:
-		query = FoodTag.objects.filter(name=tag):
-		if not query:
-			t = FoodTag(tag) 
-			t.save() 
-		else:
-			 t = query[0] 
-		f.tags.add(t) 
-		f.save() 
 
-	
-		
-	
-	
-	
+	for tag in tags:
+		if tag == "":
+                    continue
+
+		t, created = FoodTag.objects.get_or_create(name=tag)
+		f.tags.add(t) 
+	f.save() 
+
 
     html = "<html><body>Database generated successfully</body></html>"
     return HttpResponse(html)
