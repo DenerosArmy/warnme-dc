@@ -19,13 +19,14 @@ def menu_scrape(x,y,foodn):
 		if len(data) <= 10170 :
 			continue
 		soup = BeautifulSoup(data)
-		food_name = list(iter(soup.form.div))[0].split(";")[4].rstrip().__str__() 
-		food_name += '\n' 
-		print(food_name) 
+		food_name = "FoodName:" + list(iter(soup.form.div))[0].split(";")[4].rstrip().__str__() 
+		food_name += "   "
+		allergens = "Allergens:" + ((list(list(soup.body)[-6])[-4].getText()).split(";"))[-1].__str__()
+		print(food_name + "    " + allergens) 
 		working_file.write(food_name)
 		working_file.close() 
 
 x = int(sys.argv[1])
-y = int(sys.argv[2]
+y = int(sys.argv[2]) 
 z = sys.argv[3] 
 menu_scrape(x,y,z) 
