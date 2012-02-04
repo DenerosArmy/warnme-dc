@@ -1,12 +1,61 @@
 from django.shortcuts import render_to_response
 from django.template import RequestContext
+from django.http import HttpResponse
+from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
+import datetime
 from main.models import *
 
 def home(request):
-    data = {'FH': {'B': { "main_foods": Food.objects.all(),
-                          "other_foods": Food.objects.all() }}}
+    data = {}
+
+    date = datetime.date.today()
+    for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
+        data[location] = {}
+        if date.isoweekday() != 6 and date.isoweekday() != 7:
+            data[location]['B'] = sorted_foods(date, location, 'B')
+
+        data[location]['L'] = sorted_foods(date, location, 'L')
+        data[location]['D'] = sorted_foods(date, location, 'D')
+
     return render_to_response('home.html', RequestContext(request,{
                 "data": data}))
+
+def rate(request, food_key, rating):
+    """Rate a given food (with key).
+
+    The actual 'value' of the rating is deduced based on the circumstances
+    (e.g. whether the user is rating past food already eaten, or new food
+    yet to be offered)
+
+    :param rating: 0 means thumbs down, 1 means thumbs up
+    """
+    try:
+        if int(rating) == 1:
+            rating = 0.5
+        elif int(rating) == 0:
+            rating = -0.5
+        else:
+            return HttpResponse("Error: bad rating key")
+        u = UserRating(user=request.user,
+                       food=Food.objects.get(id=food_key),
+                       rating=rating)
+
+    except ObjectDoesNotExist:
+        return HttpResponse("Error: Food does not exist")
+    except MultipleObjectsReturned:
+        assert False
+    else:
+        u.save()
+        return HttpResponse("Success")
+
+def sorted_foods(date, location, meal):
+    """Return a dict of main_foods and other_foods for a given offering"""
+    o = Offering.objects.filter(location=location, date=date, meal=meal)
+    if len(o) == 0:
+        return {}
+    else:
+        return {"main_foods": o[0].foods.order_by("-rating"),
+                "other_foods": []}
 
 def food(request):
     return render_to_response('food.html', RequestContext(request, {}))

@@ -1,11 +1,19 @@
 from django import template
-import random
 from main.models import *
 register = template.Library()
 
 @register.filter()
 def rating_class(food):
-    return random.choice(["r1","r2","r3","r4","r5"])
+    if food.rating > 0.5:
+        return "r5"
+    elif food.rating > 0.3:
+        return "r4"
+    elif food.rating > 0.1:
+        return "r3"
+    elif food.rating > -0.2:
+        return "r2"
+    else:
+        return "r1"
 
 
 @register.filter()
