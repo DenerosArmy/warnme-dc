@@ -70,10 +70,13 @@ def filter_blacklists(user, date, location, meal):
 
 def has_rated(user, food):
     """Returns if a user has voted on a certain food recently."""
-    lastvotetime = UserRating.objects.filter(user=user, food=food).order_by("-id")[0].time
-    timediff = datetime.datetime.now() - lastvotetime
-    if abs(timediff.days) > 1: return False
-    return True
+    try:
+        lastvotetime = UserRating.objects.filter(user=user, food=food).order_by("-id")[0].time
+        timediff = datetime.datetime.now() - lastvotetime
+        if abs(timediff.days) > 1: return False
+        return True
+    except IndexError:
+        return False
 
 @login_required
 def rate(request, food_key, rating):

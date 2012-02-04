@@ -31,9 +31,9 @@ class Food(models.Model):
     def __str__(self):
         return self.name
 
-	def add_rating(self, rating):
-		self.rating += rating
-		self.save()
+    def add_rating(self, rating):
+        self.rating += rating
+        self.save()
 
     def get_rating(self):
         votecount = UserRating.objects.filter(food=self).count()
