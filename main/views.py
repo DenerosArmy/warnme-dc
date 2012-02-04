@@ -99,7 +99,7 @@ def rate(request, food_key, rating):
         if votecount < 1.1: votecount = 1.1
         weight = log10(votecount)
         if weight > 1.5: weight = 1.5
-        rating = ((-1)**rating)*weight
+        rating = -((-1)**rating)*weight
         u = UserRating(user=request.user,
                        food=food,
                        rating=rating)
@@ -110,7 +110,34 @@ def rate(request, food_key, rating):
         assert False
     else:
         u.save()
+        return home(request)
+        #return HttpResponse("Success")
+
+@login_required
+def add_tag(request, tag_key):
+    """Add a blacklist tag for the user
+    """
+    print "adding tag..."
+    u_p = UserProfile.objects.get(user=request.user)
+    tag = FoodTag.objects.get(id=int(tag_key))
+    if tag not in u_p.blacklisted_tags.all():
+        u_p.blacklisted_tags.add(tag)
         return HttpResponse("Success")
+    else:
+        return HttpResponse("Already there")
+
+@login_required
+def remove_tag(request, tag_key):
+    """Add a blacklist tag for the user
+    """
+    u_p = UserProfile.objects.get(user=request.user)
+    tag = FoodTag.objects.get(id=int(tag_key))
+    if tag in u_p.blacklisted_tags.all():
+        u_p.blacklisted_tags.remove(tag)
+        return HttpResponse("Success")
+    else:
+        return HttpResponse("Not removed")
+
 
 def food(request):
     return render_to_response('food.html', RequestContext(request, {}))
@@ -122,21 +149,14 @@ def food_profile(request,num):
 
 @login_required
 def user_profile(request):
-    """Data format = {location: {'B':{'main_foods':<main>, 'other_foods':<other>}, }}"""
-    data = {}
-    date = datetime.date.today()
-    user_prof = UserProfile.objects.get(user=request.user)
-    for location in map(lambda x: x[0], Offering.LOCATION_CHOICES):
-        data[location] = {}
-        if date.isoweekday() != 6 and date.isoweekday() != 7:
-            data[location]['B'] = filter_blacklists(user_prof, date, location, 'B')
-        data[location]['L'] = filter_blacklists(user_prof, date, location, 'L')
-        data[location]['D'] = filter_blacklists(user_prof, date, location, 'D')
-
+    u_p = UserProfile.objects.get(user=request.user)
+    f_t = [ x for x in FoodTag.objects.all() if not x.name.startswith("Vegan") and not x.name.startswith("Vegetarian") ]
+    f_t2 = [ (tag, (tag in u_p.blacklisted_tags.all()) ) for tag in f_t ]
+    print f_t2
     return render_to_response('user.html',
-                              RequestContext(request,{"id":request.user.id,
-                                                      "data":data,
-                                                      "def_loc":user_prof.default_location}))
+                              RequestContext(request,{
+                "profile": u_p,
+                "tags": f_t2}))
 
 def login_user(request):
     if request.user.is_authenticated():

@@ -2,6 +2,7 @@ from django.conf.urls.defaults import patterns, include, url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from main.views import home, food, food_profile
 from main.views import user_profile, rate, login_user, logout_user, register_user
+from main.views import add_tag, remove_tag
 from menu.views import gendb, genmenu
 
 # Uncomment the next two lines to enable the admin:
@@ -20,6 +21,8 @@ urlpatterns = patterns('',
         ('^register/$', register_user),
         ('^profile/$', user_profile),
         ('^rate/(\d+)/(\d)/$', rate),                   # rate a given food
+        ('^add/tag(\d+)$', add_tag),
+        ('^remove/tag(\d+)$', remove_tag),
     # Examples:
     # url(r'^$', 'warnme_dc.views.home', name='home'),
     # url(r'^warnme_dc/', include('warnme_dc.foo.urls')),
