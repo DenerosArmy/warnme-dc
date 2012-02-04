@@ -87,8 +87,9 @@ def food_profile(request,num):
 def filter_blacklists(user, date, location, meal):
     """Return a dict of main_foods and other_foods for a given offering"""
     offerings = Offering.objects.filter(location=str(location), date=date,
-                                        meal=str(meal))[0].foods.order_by("-rating")
+                                        meal=str(meal))
     if len(offerings) == 0: return {}
+    offerings = offerings[0].foods.order_by("-rating")
     else:
         main_foods, blacklisted_foods = [], []
         for food in offerings:
